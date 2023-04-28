@@ -26,7 +26,6 @@ async function runSAReport(tokens) {
 
         var rows = [
             {
-                emassNum: 'EMASS Number',
                 collectionName: 'Collections',
                 label: 'Label',
                 asset: 'Asset',
