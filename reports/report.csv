@@ -1,0 +1,916 @@
+Collection,Asset,Primary Owner,Second Owner,Sys Admin,Label,STIGs,Benchmarks,Assessed,Submitted,Accepted,Rejected,CAT3,CAT2,CAT1
+Happy Corp,Asset_1,,,,,1,Windows_Server_2019_STIG,93%,45%,0%,0%,1,11,0
+Happy Corp,Asset_2,,,,test,19,"Microsoft_Word_2016,MS_Windows_10_STIG,Windows_Firewall_with_Advanced_Security,Firewall_SRG,Active_Directory_Forest,A10_Networks_ADC_ALG_STIG,MS_Defender_Antivirus,Active_Directory_Domain,Windows_Server_2016_STIG,Windows_Server_2019_STIG,Microsoft_PowerPoint_2016,Microsoft_Outlook_2016,Microsoft_OneDrive,Microsoft_Office_System_2016,Microsoft_Excel_2016,MS_Edge_STIG,IE_11_STIG,MS_Dot_Net_Framework,Adobe_Acrobat_Reader_DC_Continuous_Track_STIG",46%,1%,0%,0%,12,15,4
+Happy Corp,Asset_3,,,,,17,"Google_Chrome_Current_Windows,Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Windows_Server_2019_STIG,Windows_Server_2016_STIG,A10_Networks_ADC_ALG_STIG,Active_Directory_Forest,Windows_Firewall_with_Advanced_Security,MS_Windows_10_STIG,Microsoft_Word_2013,Microsoft_OneDrive,Microsoft_Office_System_2013,Microsoft_Excel_2013,MS_Edge_STIG,MS_Defender_Antivirus,IE_11_STIG,MS_Dot_Net_Framework,Microsoft_PowerPoint_2013",49%,0%,0%,0%,10,15,4
+Happy Corp,Asset_4,,,,,2,"Windows_Server_2019_STIG,A10_Networks_ADC_ALG_STIG",82%,0%,0%,0%,0,2,0
+Happy Corp,NPDMRSD04,,,,,1,MS_Dot_Net_Framework,88%,0%,0%,0%,0,0,0
+NP_C10-ASI_1838_DBS,ASI_DWEB03,,,,,1,Application_Security_Development_STIG,100%,100%,100%,0%,0,2,0
+NP_C10-ASI_1838_DBS,C27DATNWPT49,,,,,5,"MS_Dot_Net_Framework,IE_11_STIG,MS_Defender_Antivirus,Windows_2012_MS_STIG,Splunk_Enterprise_7-x_for_Windows_STIG",100%,100%,100%,0%,1,4,0
+NP_C10-ASI_1838_DBS,C27DDATNWPT01,,,,,4,"Splunk_Enterprise_7-x_for_Windows_STIG,Windows_2012_MS_STIG,IE_11_STIG,MS_Dot_Net_Framework",100%,100%,100%,0%,0,7,0
+NP_C10-ASI_1838_DBS,C27DWEBNWPT03,,,,,5,"MS_Dot_Net_Framework,IE_11_STIG,IIS_8-5_Server_STIG,Windows_2012_MS_STIG,Splunk_Enterprise_7-x_for_Windows_STIG",92%,92%,92%,0%,2,18,0
+NP_C10-ASI_1838_DBS,NPRI54WEB51,,,,,6,"MS_Dot_Net_Framework,IE_11_STIG,MS_Defender_Antivirus,Windows_2012_MS_STIG,IIS_8-5_Server_STIG,Splunk_Enterprise_7-x_for_Windows_STIG",93%,93%,93%,0%,2,7,0
+NP_C10-ASI_1838_DBS,Oracle-FINDB,,,,,1,Oracle_Database_12c_STIG,99%,99%,91%,0%,0,5,0
+NP_C10-ASI_1838_DBS,Oracle-TFINDB,,,,,1,Oracle_Database_12c_STIG,99%,99%,91%,0%,0,6,0
+NP_C10-B3COI Win WS_1315_DBS,1042_Responsibilities_Asset,,,,,1,Application_Security_Development_STIG,18%,18%,0%,0%,0,0,0
+NP_C10-B3COI Win WS_1315_DBS,B3COI_SAN,,,,,1,SAN,100%,100%,0%,0%,2,0,0
+NP_C10-B3COI Win WS_1315_DBS,C27ACASNWPT01,Eric Garcia,Alex Kasparek,,,3,"RHEL_7_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",94%,89%,72%,0%,2,14,0
+NP_C10-B3COI Win WS_1315_DBS,C27ADCONSOLE1,Guy Minkin,,,,8,"IE_11_STIG,Microsoft_OneDrive,MS_Defender_Antivirus,MS_Dot_Net_Framework,MS_Edge_STIG,MS_Windows_10_STIG,Windows_PAW_STIG,Windows_Firewall_with_Advanced_Security",100%,99%,0%,0%,2,7,0
+NP_C10-B3COI Win WS_1315_DBS,C27ADCONSOLE2,Guy Minkin,,,,9,"HBSS_Rogue_Sensor,IE_11_STIG,Microsoft_OneDrive,MS_Defender_Antivirus,MS_Dot_Net_Framework,MS_Edge_STIG,MS_Windows_10_STIG,Windows_PAW_STIG,Windows_Firewall_with_Advanced_Security",100%,99%,88%,0%,4,7,0
+NP_C10-B3COI Win WS_1315_DBS,C27ADCONSOLE3,Guy Minkin,,,,8,"IE_11_STIG,Microsoft_OneDrive,MS_Defender_Antivirus,MS_Dot_Net_Framework,MS_Edge_STIG,MS_Windows_10_STIG,Windows_PAW_STIG,Windows_Firewall_with_Advanced_Security",100%,99%,0%,0%,2,7,0
+NP_C10-B3COI Win WS_1315_DBS,C27DADCONSOLE1,Guy Minkin,,,,8,"IE_11_STIG,Microsoft_OneDrive,MS_Defender_Antivirus,MS_Dot_Net_Framework,MS_Edge_STIG,MS_Windows_10_STIG,Windows_PAW_STIG,Windows_Firewall_with_Advanced_Security",100%,99%,64%,0%,3,11,0
+NP_C10-B3COI Win WS_1315_DBS,C27DADCONSOLE2,Guy Minkin,,,,8,"IE_11_STIG,Microsoft_OneDrive,MS_Defender_Antivirus,MS_Dot_Net_Framework,MS_Edge_STIG,MS_Windows_10_STIG,Windows_PAW_STIG,Windows_Firewall_with_Advanced_Security",100%,99%,88%,0%,3,11,0
+NP_C10-B3COI Win WS_1315_DBS,C27DATNWPT48,,,,,2,"VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,0%,0%,0,0,0
+NP_C10-B3COI Win WS_1315_DBS,C27DMPSNWPT10,Derek Durski,,,,2,"VMW_vSphere_7-0_ESXi_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,0%,0%,0,3,0
+NP_C10-B3COI Win WS_1315_DBS,C27DMPSNWPT11,Derek Durski,,,,2,"VMW_vSphere_7-0_ESXi_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,0%,0%,0,3,0
+NP_C10-B3COI Win WS_1315_DBS,C27DNWPTT0AW01,Jon Helgesen,,,,8,"IE_11_STIG,MS_Defender_Antivirus,MS_Dot_Net_Framework,MS_Edge_STIG,MS_Windows_10_STIG,Windows_PAW_STIG,Microsoft_OneDrive,Windows_Firewall_with_Advanced_Security",100%,99%,88%,0%,2,12,0
+NP_C10-B3COI Win WS_1315_DBS,C27DNWPTT1AW01,Jon Helgesen,,,,7,"IE_11_STIG,MS_Defender_Antivirus,MS_Dot_Net_Framework,MS_Edge_STIG,MS_Windows_10_STIG,Windows_PAW_STIG,Windows_Firewall_with_Advanced_Security",100%,99%,88%,0%,2,8,0
+NP_C10-B3COI Win WS_1315_DBS,C27DNWPTT1AW02,Jon Helgesen,,,,7,"IE_11_STIG,MS_Defender_Antivirus,MS_Dot_Net_Framework,MS_Edge_STIG,MS_Windows_10_STIG,Windows_PAW_STIG,Windows_Firewall_with_Advanced_Security",100%,99%,88%,0%,2,8,0
+NP_C10-B3COI Win WS_1315_DBS,C27EXCNWPT01,Jay Andrade,,,,2,"VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,0%,0%,0,0,0
+NP_C10-B3COI Win WS_1315_DBS,C27IDMNWPT01,Adrian Correia,,,,2,"VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,0%,0%,0,0,0
+NP_C10-B3COI Win WS_1315_DBS,C27MPSNWPT10,Derek Durski,,,,2,"VMW_vSphere_7-0_ESXi_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,0%,0%,0,3,0
+NP_C10-B3COI Win WS_1315_DBS,C27MPSNWPT11,Derek Durski,,,,2,"VMW_vSphere_7-0_ESXi_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,0%,0%,0,3,0
+NP_C10-B3COI Win WS_1315_DBS,C27MPSNWPT12,Derek Durski,,,,2,"VMW_vSphere_7-0_ESXi_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,0%,0%,0,3,0
+NP_C10-B3COI Win WS_1315_DBS,C27NESNWPT01,Eric Garcia,Alex Kasparek,,,3,"RHEL_7_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",94%,89%,72%,0%,2,14,0
+NP_C10-B3COI Win WS_1315_DBS,C27NWPTT0AW01,Jon Helgesen,,,,7,"IE_11_STIG,MS_Defender_Antivirus,MS_Dot_Net_Framework,MS_Edge_STIG,MS_Windows_10_STIG,Windows_PAW_STIG,Windows_Firewall_with_Advanced_Security",100%,98%,88%,0%,3,10,0
+NP_C10-B3COI Win WS_1315_DBS,C27NWPTT1AW01,Jon Helgesen,,,,7,"IE_11_STIG,MS_Defender_Antivirus,MS_Dot_Net_Framework,MS_Edge_STIG,MS_Windows_10_STIG,Windows_PAW_STIG,Windows_Firewall_with_Advanced_Security",100%,99%,88%,0%,3,8,0
+NP_C10-B3COI Win WS_1315_DBS,C27NWPTT1AW02,Jon Helgesen,,,,7,"IE_11_STIG,MS_Defender_Antivirus,MS_Dot_Net_Framework,MS_Edge_STIG,MS_Windows_10_STIG,Windows_PAW_STIG,Windows_Firewall_with_Advanced_Security",100%,99%,88%,0%,3,7,0
+NP_C10-B3COI Win WS_1315_DBS,C27NWPTT1AW03,Jon Helgesen,,,,7,"IE_11_STIG,MS_Defender_Antivirus,MS_Dot_Net_Framework,MS_Edge_STIG,MS_Windows_10_STIG,Windows_PAW_STIG,Windows_Firewall_with_Advanced_Security",100%,99%,0%,0%,2,7,0
+NP_C10-B3COI Win WS_1315_DBS,C27NWPTT1AW04,Jon Helgesen,,,,7,"IE_11_STIG,MS_Defender_Antivirus,MS_Dot_Net_Framework,MS_Edge_STIG,MS_Windows_10_STIG,Windows_PAW_STIG,Windows_Firewall_with_Advanced_Security",100%,99%,0%,0%,2,7,0
+NP_C10-B3COI Win WS_1315_DBS,C27SPLSNWPT11,Craig F.,,,,4,"RHEL_7_STIG,Splunk_Enterprise_8-x_for_Linux_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,0%,0%,0,6,0
+NP_C10-B3COI Win WS_1315_DBS,C27SPLXNWPT11,Craig F.,,,,4,"RHEL_7_STIG,Splunk_Enterprise_8-x_for_Linux_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,0%,0%,0,6,0
+NP_C10-B3COI Win WS_1315_DBS,C27SYSLOGNWPT01,Corey Long,,,,3,"RHEL_7_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,0%,0%,0,10,0
+NP_C10-B3COI Win WS_1315_DBS,C27VRLINWPT01,Adrian Correia,,,,2,"VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,0%,0%,0,0,0
+NP_C10-B3COI Win WS_1315_DBS,C27WEBNWPT01,Adrian Correia,,,,4,"VMW_vSphere_7-0_vCA_Photon_OS_STIG,VMW_vSphere_7-0_vCenter_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,0%,0%,1,2,0
+NP_C10-B3COI Win WS_1315_DBS,NPML-B104-RM101-B3COI,Ryan Nario,,,,4,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG,Network_Infrastructure_Policy_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27APLNWPT71-NewPortalV4Ext-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,77%,0%,0,1,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27APLNWPT71-NewPortalV4Root-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,80%,0%,0,1,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27APLNWPT71-PortalV4-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,80%,0%,0,1,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27APLNWPT71-SharePoint Web Services-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,73%,0%,0,3,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27APLNWPT71-UserSiteV4-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,77%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27APLNWPT72-NewPortalV4Ext-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,77%,0%,0,1,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27APLNWPT72-NewPortalV4Root-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,80%,0%,0,1,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27APLNWPT72-PortalV4-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,77%,0%,0,1,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27APLNWPT72-SharePoint Web Services-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,75%,0%,0,4,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27APLNWPT72-UserSiteV4-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,82%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27COMMVNWPT01-Consoles-NA,,,,,1,IIS_10-0_Site_STIG,89%,80%,45%,0%,0,4,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27COMMVNWPT01-Default Web Site-NA,,,,,1,IIS_10-0_Site_STIG,93%,84%,52%,0%,0,4,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27DATNWPT03-Default Web Site-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,0%,0%,0,1,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27DATNWPT03-WSUS Administration-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,0%,0%,0,4,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27DATNWPT71-C27DATNWPT71-SQL2016,,,,,1,MS_SQL_Server_2016_Instance_STIG,100%,100%,0%,0%,1,15,4
+NP_C10-B3COI-Database/Web_1315_DBS,C27DATNWPT71-C27DATNWPT71-SQLSERVER2017,,,,,1,MS_SQL_Server_2016_Instance_STIG,100%,100%,0%,0%,1,18,4
+NP_C10-B3COI-Database/Web_1315_DBS,C27DATNWPT72-C27DATNWPT72-SHAREPOINTSQL,,,,,1,MS_SQL_Server_2016_Instance_STIG,100%,100%,0%,0%,1,17,4
+NP_C10-B3COI-Database/Web_1315_DBS,C27DATNWPT72-C27DATNWPT72-SQLSERVER2017,,,,,1,MS_SQL_Server_2016_Instance_STIG,100%,100%,0%,0%,1,16,4
+NP_C10-B3COI-Database/Web_1315_DBS,C27DDATNWPT71-C27DDATNWPT71-SQLDEV01,,,,,1,MS_SQL_Server_2016_Instance_STIG,100%,99%,0%,0%,0,12,2
+NP_C10-B3COI-Database/Web_1315_DBS,C27DDATNWPT71-C27DDATNWPT71-SQLTEST01,,,,,1,MS_SQL_Server_2016_Instance_STIG,100%,98%,0%,0%,0,12,3
+NP_C10-B3COI-Database/Web_1315_DBS,C27DWEBNWPT02-Default Web Site-NA,,,,,1,IIS_8-5_Site_STIG,100%,73%,54%,0%,0,12,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27DWEBNWPT02-WSUS Administration-NA,,,,,1,IIS_8-5_Site_STIG,98%,73%,50%,0%,0,11,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27DWEBNWPT03-C27DWEBNWPT03-NA,,,,,1,IIS_8-5_Site_STIG,94%,85%,63%,0%,0,3,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27DWEBNWPT03-ISMS-NA,,,,,1,IIS_8-5_Site_STIG,94%,88%,65%,0%,0,2,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27DWEBNWPT03-ISMSt-NA,,,,,1,IIS_8-5_Site_STIG,94%,90%,63%,0%,0,1,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27DWEBNWPT03-PKI.CRL-NA,,,,,1,IIS_8-5_Site_STIG,98%,90%,60%,0%,0,3,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27DWEBNWPT03-WWW-NA,,,,,1,IIS_8-5_Site_STIG,100%,85%,56%,0%,0,8,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27DWEBNWPT71-NewportalV4-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,66%,0%,0,1,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27DWEBNWPT71-SharePoint - 4449-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,70%,0%,0,1,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27DWEBNWPT71-SharePoint Central Administration v4-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,70%,0%,0,1,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27DWEBNWPT71-SharePoint Web Services-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,77%,0%,0,2,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27WEBNWPT11-Default Web Site-NA,,,,,1,IIS_10-0_Site_STIG,98%,75%,0%,0%,0,10,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27WEBNWPT71-NewPortalV4Ext-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,73%,0%,0,2,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27WEBNWPT71-NewPortalV4Root-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,77%,0%,0,1,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27WEBNWPT71-PortalV4-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,75%,0%,0,1,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27WEBNWPT71-SharePoint Central Administration v4-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,75%,0%,0,1,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27WEBNWPT71-SharePoint Web Services-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,73%,0%,0,3,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27WEBNWPT71-UserSiteV4-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,80%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27WEBNWPT72-NewPortalV4Ext-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,75%,0%,0,1,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27WEBNWPT72-NewPortalV4Root-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,84%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27WEBNWPT72-PortalV4-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,80%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27WEBNWPT72-SharePoint Web Services-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,73%,0%,0,3,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27WEBNWPT72-UserSiteV4-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,82%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,C27WEBNWPT99-Default Web Site-NA,,,,,1,IIS_8-5_Site_STIG,100%,85%,56%,0%,0,8,0
+NP_C10-B3COI-Database/Web_1315_DBS,E2,,,,,3,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,RHEL_7_STIG,U_CAN_Ubuntu_18-04_STIG",0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Ecraft_App_ATS_DBA,,,,,0,,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Ecraft_App_ATS_Developer,,,,,0,,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Ecraft_App_ATS_Rollup,,,,,0,,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Ecraft_App_ATS_Tester_CM_PM,,,,,0,,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Ecraft_App_Ecraft_DBA,,,,,0,,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Ecraft_App_Ecraft_Developer,,,,,0,,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Ecraft_App_Ecraft_Rollup,,,,,0,,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Ecraft_App_Ecraft_Tester_CM_PM,,,,,0,,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Ecraft_App_MASTER_Rollup,,,,,0,,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Ench_App_AOL_Rollup,,,,,0,,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Ench_App_AOOT_Rollup,,,,,0,,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Ench_App_CCICO_Rollup,,,,,0,,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Ench_App_CLF_Rollup,,,,,0,,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Ench_App_DEMO-IP_Rollup,,,,,0,,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Ench_App_EMPLV_Rollup,,,,,0,,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Ench_App_ENCH_Rollup,,,,,0,,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Ench_App_HR-Apps_Rollup,,,,,0,,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Ench_App_LDA_Rollup,,,,,0,,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Ench_App_RFL_Rollup,,,,,0,,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Ench_App_RFOT_Rollup,,,,,0,,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Ench_App_SEC_Rollup,,,,,0,,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Ench_App_UTIL_Rollup,,,,,0,,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,NPRI54APL17-Default Web Site-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,75%,0%,0,2,0
+NP_C10-B3COI-Database/Web_1315_DBS,NPRI54APL20-Default Web Site-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,57%,0%,0,6,0
+NP_C10-B3COI-Database/Web_1315_DBS,NPRI54APL23-Default Web Site-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,59%,0%,0,2,0
+NP_C10-B3COI-Database/Web_1315_DBS,NPRI54APL48-Default Web Site-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,59%,0%,0,3,0
+NP_C10-B3COI-Database/Web_1315_DBS,NPRI54WEB15-CORPAPPS-NA,,,,,1,IIS_10-0_Site_STIG,93%,86%,70%,0%,0,3,0
+NP_C10-B3COI-Database/Web_1315_DBS,NPRI54WEB15-Default Web Site-NA,,,,,1,IIS_10-0_Site_STIG,95%,89%,73%,0%,0,3,0
+NP_C10-B3COI-Database/Web_1315_DBS,NPRI54WEB15-ISMS-NA,,,,,1,IIS_10-0_Site_STIG,93%,80%,64%,0%,0,6,0
+NP_C10-B3COI-Database/Web_1315_DBS,NPRI54WEB19-Default Web Site-NA,,,,,1,IIS_10-0_Site_STIG,95%,66%,55%,0%,0,13,0
+NP_C10-B3COI-Database/Web_1315_DBS,NPRI54WEB23-Default Web Site-NA,,,,,1,IIS_8-5_Site_STIG,94%,81%,58%,0%,0,5,0
+NP_C10-B3COI-Database/Web_1315_DBS,NPRI54WEB23-ISMSsite-NA,,,,,1,IIS_8-5_Site_STIG,96%,81%,56%,0%,0,6,0
+NP_C10-B3COI-Database/Web_1315_DBS,NPRI54WEB23-KeystoneWeb-NA,,,,,1,IIS_8-5_Site_STIG,94%,73%,46%,0%,0,11,0
+NP_C10-B3COI-Database/Web_1315_DBS,NPRI54WEB23-PKI.CRL-NA,,,,,1,IIS_8-5_Site_STIG,100%,79%,46%,0%,0,11,0
+NP_C10-B3COI-Database/Web_1315_DBS,NPRI54WEB52-ISMS-NA,,,,,1,IIS_10-0_Site_STIG,93%,70%,59%,0%,0,10,0
+NP_C10-B3COI-Database/Web_1315_DBS,NPRI54WEB52-NPRI54WEB52-NA,,,,,1,IIS_10-0_Site_STIG,95%,70%,59%,0%,0,11,0
+NP_C10-B3COI-Database/Web_1315_DBS,NPRI54WEB53-CORPAPPS-NA,,,,,1,IIS_10-0_Site_STIG,98%,84%,0%,0%,0,6,0
+NP_C10-B3COI-Database/Web_1315_DBS,NPRI54WEB53-CORPAPPS1-NA,,,,,1,IIS_10-0_Site_STIG,98%,77%,0%,0%,0,9,0
+NP_C10-B3COI-Database/Web_1315_DBS,NPRI54WEB53-CORPAPPS2-NA,,,,,1,IIS_10-0_Site_STIG,95%,73%,0%,0%,0,10,0
+NP_C10-B3COI-Database/Web_1315_DBS,NPRI54WEB53-Default Web Site-NA,,,,,1,IIS_10-0_Site_STIG,98%,77%,0%,0%,0,9,0
+NP_C10-B3COI-Database/Web_1315_DBS,NPRI54WEB53-WWW-NA,,,,,1,IIS_10-0_Site_STIG,95%,77%,0%,0%,0,8,0
+NP_C10-B3COI-Database/Web_1315_DBS,Oracle-ARCHIBUS,,,,,1,Oracle_Database_12c_STIG,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Oracle-DECRAFT,,,,,1,Oracle_Database_12c_STIG,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Oracle-DENTECR,,,,,1,Oracle_Database_12c_STIG,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Oracle-ECRAFT,,,,,1,Oracle_Database_12c_STIG,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Oracle-GRID,,,,,1,Oracle_Database_12c_STIG,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Oracle-ITSMDB,,,,,1,Oracle_Database_12c_STIG,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Oracle-ITSMDEV,,,,,1,Oracle_Database_12c_STIG,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Oracle-PSG,,,,,1,Oracle_Database_12c_STIG,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Oracle-PSGDEV,,,,,1,Oracle_Database_12c_STIG,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Oracle-REPO,,,,,1,Oracle_Database_12c_STIG,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,Oracle-TECRAFT,,,,,1,Oracle_Database_12c_STIG,0%,0%,0%,0%,0,0,0
+NP_C10-B3COI-Database/Web_1315_DBS,TST-SERVER1,,,,,6,"HBSS_PolicyAuditor,IE_11_STIG,MS_Dot_Net_Framework,MS_SQL_Server_2014_Database_STIG,MS_SQL_Server_2014_Instance_STIG,Windows_Server_2016_STIG",0%,0%,0%,0%,0,0,0
+NP_C10-Enchilada_2008_DBS,C27DATNWPT43,,,,,6,"MS_Dot_Net_Framework,IE_11_STIG,Splunk_Enterprise_7-x_for_Windows_STIG,MS_Defender_Antivirus,Windows_2012_MS_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",84%,83%,83%,0%,1,3,0
+NP_C10-Enchilada_2008_DBS,C27DATNWPT45,,,,,6,"IE_11_STIG,MS_Dot_Net_Framework,Windows_2012_MS_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,MS_Defender_Antivirus,Splunk_Enterprise_7-x_for_Windows_STIG",84%,83%,83%,0%,0,3,0
+NP_C10-Enchilada_2008_DBS,Ench_App_AOL_Rollup,,,,,1,Application_Security_Development_STIG,0%,0%,0%,0%,0,0,0
+NP_C10-Enchilada_2008_DBS,Ench_App_AOOT_Rollup,,,,,1,Application_Security_Development_STIG,0%,0%,0%,0%,0,0,0
+NP_C10-Enchilada_2008_DBS,Ench_App_CCICO_Rollup,,,,,1,Application_Security_Development_STIG,0%,0%,0%,0%,0,0,0
+NP_C10-Enchilada_2008_DBS,Ench_App_CLF_Rollup,,,,,1,Application_Security_Development_STIG,0%,0%,0%,0%,0,0,0
+NP_C10-Enchilada_2008_DBS,Ench_App_DEMO-IP_Rollup,,,,,1,Application_Security_Development_STIG,0%,0%,0%,0%,0,0,0
+NP_C10-Enchilada_2008_DBS,Ench_App_EMPLV_Rollup,,,,,1,Application_Security_Development_STIG,0%,0%,0%,0%,0,0,0
+NP_C10-Enchilada_2008_DBS,Ench_App_ENCH_Rollup,,,,,1,Application_Security_Development_STIG,0%,0%,0%,0%,0,0,0
+NP_C10-Enchilada_2008_DBS,Ench_App_HR-Apps_Rollup,,,,,1,Application_Security_Development_STIG,0%,0%,0%,0%,0,0,0
+NP_C10-Enchilada_2008_DBS,Ench_App_LDA_Rollup,,,,,1,Application_Security_Development_STIG,0%,0%,0%,0%,0,0,0
+NP_C10-Enchilada_2008_DBS,Ench_App_RFL_Rollup,,,,,1,Application_Security_Development_STIG,0%,0%,0%,0%,0,0,0
+NP_C10-Enchilada_2008_DBS,Ench_App_RFOT_Rollup,,,,,1,Application_Security_Development_STIG,0%,0%,0%,0%,0,0,0
+NP_C10-Enchilada_2008_DBS,Ench_App_SEC_Rollup,,,,,1,Application_Security_Development_STIG,0%,0%,0%,0%,0,0,0
+NP_C10-Enchilada_2008_DBS,Ench_App_UTIL_Rollup,,,,,1,Application_Security_Development_STIG,0%,0%,0%,0%,0,0,0
+NP_C10-Enchilada_2008_DBS,NPRI54DAT47,,,,,5,"Splunk_Enterprise_7-x_for_Windows_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,MS_Dot_Net_Framework,IE_11_STIG,Windows_2012_MS_STIG",82%,81%,81%,0%,1,7,0
+NP_C10-Enchilada_2008_DBS,NPRI54DAT67,,,,,5,"IE_11_STIG,MS_Dot_Net_Framework,Windows_2012_MS_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Splunk_Enterprise_7-x_for_Windows_STIG",82%,81%,81%,0%,0,7,0
+NP_C10-Enchilada_2008_DBS,NPRI54WEB15,,,,,8,"VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Server_2019_STIG,IIS_10-0_Site_STIG,IIS_10-0_Server_STIG,MS_Dot_Net_Framework,IE_11_STIG,MS_Defender_Antivirus,Splunk_Enterprise_7-x_for_Windows_STIG",76%,74%,70%,0%,3,8,0
+NP_C10-Enchilada_2008_DBS,NPRI54WEB53,,,,,7,"Windows_Server_2019_STIG,Splunk_Enterprise_7-x_for_Windows_STIG,MS_Defender_Antivirus,IE_11_STIG,MS_Dot_Net_Framework,IIS_10-0_Server_STIG,IIS_10-0_Site_STIG",80%,77%,67%,0%,5,11,0
+NP_C10-Enchilada_2008_DBS,Oracle-DSECDB,,,,,1,Oracle_Database_12c_STIG,91%,0%,0%,0%,0,1,0
+NP_C10-Enchilada_2008_DBS,Oracle-DVPRODDB,,,,,1,Oracle_Database_12c_STIG,91%,0%,0%,0%,0,1,0
+NP_C10-Enchilada_2008_DBS,Oracle-PRODDB,,,,,1,Oracle_Database_12c_STIG,91%,0%,0%,0%,0,1,0
+NP_C10-Enchilada_2008_DBS,Oracle-SECDB,,,,,1,Oracle_Database_12c_STIG,91%,0%,0%,0%,0,1,0
+NP_C10-Enchilada_2008_DBS,Oracle-TPRODDB,,,,,1,Oracle_Database_12c_STIG,91%,0%,0%,0%,0,1,0
+NP_C10-Enchilada_2008_DBS,Oracle-TSECDB,,,,,1,Oracle_Database_12c_STIG,91%,0%,0%,0%,0,1,0
+NP_C10-NCCM-NW_7371_Zone B,1301-SHLT,,,,,1,MOZ_Firefox_STIG,76%,0%,0%,0%,0,0,0
+NP_C10-NCCM-NW_7371_Zone B,400586SOJOURNER,,,,,1,MOZ_Firefox_STIG,76%,0%,0%,0%,0,0,0
+NP_C10-NCCM-NW_7371_Zone B,atms_ejcl3,,,,,2,"MOZ_Firefox_STIG,Google_Chrome_Current_Windows",81%,0%,0%,0%,0,0,0
+NP_C10-NCCM-NW_7371_Zone B,c2ap-dev-01,,,,,3,"Google_Chrome_Current_Windows,MOZ_Firefox_STIG,RHEL_7_STIG",48%,0%,0%,0%,3,20,1
+NP_C10-NCCM-NW_7371_Zone B,np0044wk402135,,,,,2,"MOZ_Firefox_STIG,RHEL_8_STIG",96%,93%,0%,0%,0,12,0
+NP_C10-NCCM-NW_7371_Zone B,np0044wk405384,,,,,1,MOZ_Firefox_STIG,76%,0%,0%,0%,0,0,0
+NP_C10-NCCM-NW_7371_Zone B,np0044wk405400,,,,,1,MOZ_Firefox_STIG,76%,0%,0%,0%,0,0,0
+NP_C10-NCCM-NW_7371_Zone B,np0170wk400144,,,,,1,MOZ_Firefox_STIG,76%,0%,0%,0%,0,0,0
+NP_C10-NCCM-NW_7371_Zone B,np0170wk402073,,,,,2,"MOZ_Firefox_STIG,RHEL_7_STIG",43%,0%,0%,0%,0,15,0
+NP_C10-NCCM-NW_7371_Zone B,np0170wk407024,,,,,2,"MOZ_Firefox_STIG,RHEL_7_STIG",43%,0%,0%,0%,0,14,1
+NP_C10-NCCM-NW_7371_Zone B,np0170wk408102,,,,,1,MOZ_Firefox_STIG,76%,0%,0%,0%,0,0,0
+NP_C10-NCCM-NW_7371_Zone B,np0170wk409520,,,,,2,"MOZ_Firefox_STIG,RHEL_7_STIG",43%,0%,0%,0%,1,19,2
+NP_C10-NCCM-NW_7371_Zone B,np0170wk414416,,,,,1,MOZ_Firefox_STIG,76%,0%,0%,0%,0,0,0
+NP_C10-NCCM-NW_7371_Zone B,np0170wk541538,,,,,2,"MOZ_Firefox_STIG,RHEL_7_STIG",43%,0%,0%,0%,1,18,1
+NP_C10-NCCM-NW_7371_Zone B,np0170wk546595,,,,,2,"MOZ_Firefox_STIG,RHEL_7_STIG",43%,0%,0%,0%,0,17,0
+NP_C10-NCCM-NW_7371_Zone B,np0170wk629797,,,,,2,"MOZ_Firefox_STIG,RHEL_7_STIG",43%,0%,0%,0%,0,24,2
+NP_C10-NCCM-NW_7371_Zone B,NP0440NB417274,,,,,2,"MOZ_Firefox_STIG,RHEL_7_STIG",43%,0%,0%,0%,0,15,1
+NP_C10-NCCM-NW_7371_Zone B,NP0445NB4002256,,,,,1,MOZ_Firefox_STIG,76%,0%,0%,0%,0,0,0
+NP_C10-NCCM-NW_7371_Zone B,np0461nb402373,,,,,2,"MOZ_Firefox_STIG,RHEL_7_STIG",43%,0%,0%,0%,0,16,2
+NP_C10-NCCM-NW_7371_Zone B,NP0461NB737510,,,,,2,"MOZ_Firefox_STIG,RHEL_7_STIG",43%,0%,0%,0%,0,20,0
+NP_C10-NCCM-NW_7371_Zone B,np0461nb749195,,,,,2,"MOZ_Firefox_STIG,RHEL_7_STIG",43%,0%,0%,0%,0,21,2
+NP_C10-NCCM-NW_7371_Zone B,np0479wk417488,,,,,2,"MOZ_Firefox_STIG,RHEL_7_STIG",43%,0%,0%,0%,0,15,1
+NP_C10-NCCM-NW_7371_Zone B,NP0902WK400188,,,,,2,"MOZ_Firefox_STIG,RHEL_7_STIG",73%,73%,0%,0%,0,0,0
+NP_C10-NCCM-NW_7371_Zone B,NP0902WK402124,,,,,2,"MOZ_Firefox_STIG,RHEL_7_STIG",99%,96%,0%,0%,0,8,0
+NP_C10-NCCM-NW_7371_Zone B,np1265nb399251,,,,,2,"MOZ_Firefox_STIG,RHEL_7_STIG",43%,0%,0%,0%,0,23,2
+NP_C10-NCCM-NW_7371_Zone B,np1265nb399387,,,,,1,MOZ_Firefox_STIG,76%,0%,0%,0%,0,0,0
+NP_C10-NCCM-NW_7371_Zone B,np1265nb400704,,,,,1,MOZ_Firefox_STIG,76%,0%,0%,0%,0,0,0
+NP_C10-NCCM-NW_7371_Zone B,np1265nb400710,,,,,2,"MOZ_Firefox_STIG,RHEL_7_STIG",43%,0%,0%,0%,0,15,0
+NP_C10-NCCM-NW_7371_Zone B,np1265nb416054,,,,,2,"RHEL_7_STIG,MOZ_Firefox_STIG",43%,0%,0%,0%,0,17,1
+NP_C10-NCCM-NW_7371_Zone B,np1265nb416056,,,,,2,"MOZ_Firefox_STIG,RHEL_7_STIG",43%,0%,0%,0%,0,18,1
+NP_C10-NCCM-NW_7371_Zone B,np1265nb416057,,,,,2,"MOZ_Firefox_STIG,RHEL_7_STIG",43%,0%,0%,0%,0,20,2
+NP_C10-NCCM-NW_7371_Zone B,np1265nb712821,,,,,2,"MOZ_Firefox_STIG,RHEL_7_STIG",43%,0%,0%,0%,0,19,2
+NP_C10-NCCM-NW_7371_Zone B,np1321wk392406,,,,,1,MOZ_Firefox_STIG,76%,0%,0%,0%,0,0,0
+NP_C10-NCCM-NW_7371_Zone B,sphericalchicken,,,,,1,MOZ_Firefox_STIG,76%,0%,0%,0%,0,0,0
+NP_C10-NCCM-NW_7371_Zone B,w3421-es-lt50,,,,,2,"MOZ_Firefox_STIG,RHEL_7_STIG",43%,0%,0%,0%,0,12,0
+NP_C10-NCCM-S_7373_Zone B,NPA0APPSCN01,,,,,6,"MS_Dot_Net_Framework,IE_11_STIG,IIS_10-0_Server_STIG,Windows_Server_2016_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",98%,98%,89%,0%,2,7,0
+NP_C10-NCCM-S_7373_Zone B,NPA0ARCGIS01,,,,,7,"Google_Chrome_Current_Windows,MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2016_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,ArcGIS_Server_10.3_STIG,Windows_Firewall_with_Advanced_Security",95%,95%,90%,0%,0,1,0
+NP_C10-NCCM-S_7373_Zone B,NPA0ARCGIS02,,,,,6,"Google_Chrome_Current_Windows,MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",99%,98%,94%,0%,0,1,1
+NP_C10-NCCM-S_7373_Zone B,NPA0ARCGISDATA,,,,,6,"MS_Dot_Net_Framework,IE_11_STIG,MS_Defender_Antivirus,Windows_Server_2019_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",99%,99%,95%,0%,0,1,0
+NP_C10-NCCM-S_7373_Zone B,NPA0ARCGISPRTL,,,,,7,"Google_Chrome_Current_Windows,MS_Dot_Net_Framework,IE_11_STIG,MS_Defender_Antivirus,Windows_Server_2019_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",99%,98%,94%,0%,0,1,1
+NP_C10-NCCM-S_7373_Zone B,NPA0ARCGISSTORE,,,,,7,"Google_Chrome_Current_Windows,MS_Dot_Net_Framework,IE_11_STIG,MS_Defender_Antivirus,Windows_Server_2019_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",99%,99%,95%,0%,0,0,1
+NP_C10-NCCM-S_7373_Zone B,NPA0ASDLENEL01,,,,,7,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,Google_Chrome_Current_Windows,MS_Defender_Antivirus,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,99%,95%,0%,0,2,1
+NP_C10-NCCM-S_7373_Zone B,NPA0AZDEVOPS01,,,,,6,"Google_Chrome_Current_Windows,MS_Dot_Net_Framework,IE_11_STIG,IIS_10-0_Server_STIG,Windows_Server_2016_STIG,Windows_Firewall_with_Advanced_Security",96%,92%,88%,0%,4,15,2
+NP_C10-NCCM-S_7373_Zone B,NPA0BUILDVM04,,,,,5,"Google_Chrome_Current_Windows,MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,Windows_Firewall_with_Advanced_Security",99%,97%,93%,0%,2,6,2
+NP_C10-NCCM-S_7373_Zone B,NPA0CHKMRX02,,,,,6,"MS_Dot_Net_Framework,IE_11_STIG,IIS_10-0_Server_STIG,Windows_Server_2019_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",96%,94%,90%,0%,3,9,0
+NP_C10-NCCM-S_7373_Zone B,NPA0CIBUILD70,,,,,6,"MS_Dot_Net_Framework,IE_11_STIG,IIS_10-0_Server_STIG,Windows_Server_2019_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",96%,93%,89%,0%,2,14,0
+NP_C10-NCCM-S_7373_Zone B,NPA0COLTS01,,,,,6,"MS_Dot_Net_Framework,IE_11_STIG,IIS_10-0_Server_STIG,Windows_Server_2019_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",96%,93%,89%,0%,3,10,0
+NP_C10-NCCM-S_7373_Zone B,NPA0KEYCLOAK,,,,,6,"Google_Chrome_Current_Windows,MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",99%,99%,94%,0%,0,1,1
+NP_C10-NCCM-S_7373_Zone B,NPA0LENEL01,,,,,5,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,99%,95%,0%,0,1,0
+NP_C10-NCCM-S_7373_Zone B,NPA0NVR01,,,,,4,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2016_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,96%,0%,0,1,0
+NP_C10-NCCM-S_7373_Zone B,NPA0NVR02,,,,,4,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2016_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,96%,0%,0,1,0
+NP_C10-NCCM-S_7373_Zone B,NPA0SPRI03,,,,,6,"MS_Dot_Net_Framework,IE_11_STIG,IIS_10-0_Server_STIG,Windows_Server_2019_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",97%,95%,90%,0%,3,7,0
+NP_C10-NCCM-S_7373_Zone B,NPA0VSMART01,,,,,6,"MS_Dot_Net_Framework,IE_11_STIG,IIS_10-0_Server_STIG,Windows_Server_2019_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",96%,92%,88%,0%,3,14,0
+NP_C10-NCCM-S_7373_Zone B,NPA4AZSQLAG01,,,,,4,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,Windows_Firewall_with_Advanced_Security",99%,96%,92%,0%,3,9,1
+NP_C10-NCCM-S_7373_Zone B,NPC2ARCGISWEB01,,,,,7,"Google_Chrome_Current_Windows,MS_Dot_Net_Framework,IE_11_STIG,IIS_10-0_Server_STIG,Windows_Server_2019_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",96%,94%,90%,0%,3,8,1
+NP_C10-NCCM-W_7372_Zone B,0170-01939,,,,,15,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Lync_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,5,44,2
+NP_C10-NCCM-W_7372_Zone B,0170-02099,,,,,14,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,3,43,3
+NP_C10-NCCM-W_7372_Zone B,0170-399925,,,,,13,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2016,Microsoft_Office_System_2016,Microsoft_OneDrive,Microsoft_PowerPoint_2016,Microsoft_Word_2016,MS_Windows_10_STIG",83%,0%,0%,0%,4,40,2
+NP_C10-NCCM-W_7372_Zone B,044602165WS02,,,,,12,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",83%,0%,0%,0%,3,42,3
+NP_C10-NCCM-W_7372_Zone B,047902188DT,,,,,13,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,5,43,2
+NP_C10-NCCM-W_7372_Zone B,047902189DT,,,,,14,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,3,42,2
+NP_C10-NCCM-W_7372_Zone B,1265-399383,,,,,14,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,6,61,4
+NP_C10-NCCM-W_7372_Zone B,1265-399649,,,,,14,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,2,27,3
+NP_C10-NCCM-W_7372_Zone B,1265-399969,,,,,14,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,3,42,3
+NP_C10-NCCM-W_7372_Zone B,1265-399997,,,,,15,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Lync_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,5,45,3
+NP_C10-NCCM-W_7372_Zone B,1265-400713,,,,,15,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Lync_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,4,61,4
+NP_C10-NCCM-W_7372_Zone B,1274-02089,,,,,13,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,3,42,3
+NP_C10-NCCM-W_7372_Zone B,132102071SSTD6,,,,,14,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,5,43,3
+NP_C10-NCCM-W_7372_Zone B,EMERALD,,,,,15,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_Outlook_2013,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",85%,0%,0%,0%,2,10,2
+NP_C10-NCCM-W_7372_Zone B,NP0086NB399975,,,,,13,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",81%,0%,0%,0%,6,8,4
+NP_C10-NCCM-W_7372_Zone B,NP0086WK400111,,,,,12,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",83%,0%,0%,0%,5,42,4
+NP_C10-NCCM-W_7372_Zone B,NP0095WK403352,,,,,14,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,6,42,4
+NP_C10-NCCM-W_7372_Zone B,NP0139NB005608,,,,,13,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,5,43,2
+NP_C10-NCCM-W_7372_Zone B,NP0139NB400801,,,,,13,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,2,9,2
+NP_C10-NCCM-W_7372_Zone B,NP0139NB701805,,,,,14,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,5,42,2
+NP_C10-NCCM-W_7372_Zone B,NP0139NB701808,,,,,13,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,5,42,2
+NP_C10-NCCM-W_7372_Zone B,NP0139WK002185,,,,,12,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,MS_Dot_Net_Framework,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,4,11,2
+NP_C10-NCCM-W_7372_Zone B,NP0139WK014400,,,,,14,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,5,45,2
+NP_C10-NCCM-W_7372_Zone B,NP0139WK014422,,,,,14,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,5,42,3
+NP_C10-NCCM-W_7372_Zone B,NP0139WK014469,,,,,14,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,5,43,3
+NP_C10-NCCM-W_7372_Zone B,NP0139WK400799,,,,,14,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,3,42,3
+NP_C10-NCCM-W_7372_Zone B,NP0170NB402212,,,,,14,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,3,41,3
+NP_C10-NCCM-W_7372_Zone B,NP0443NB401381,,,,,11,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,MS_Dot_Net_Framework,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,6,9,3
+NP_C10-NCCM-W_7372_Zone B,NP0443NB402416,,,,,12,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,MS_Dot_Net_Framework,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,7,53,3
+NP_C10-NCCM-W_7372_Zone B,NP0443WK401289,,,,,14,"Adobe_Acrobat_Pro_DC_Continuous_STIG,Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,4,34,2
+NP_C10-NCCM-W_7372_Zone B,NP0443WK401290,,,,,14,"Adobe_Acrobat_Pro_DC_Continuous_STIG,Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Lync_2013,Microsoft_Office_System_2013,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,12,20,2
+NP_C10-NCCM-W_7372_Zone B,NP0443WK401995,,,,,12,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,1,14,3
+NP_C10-NCCM-W_7372_Zone B,NP0443WK402000,,,,,13,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,MS_Dot_Net_Framework,IE_11_STIG,JRE_8_and_Windows_STIG,Microsoft_Access_2013,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",85%,0%,0%,0%,3,10,1
+NP_C10-NCCM-W_7372_Zone B,NP0443WK402002,,,,,12,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,MS_Dot_Net_Framework,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,3,11,1
+NP_C10-NCCM-W_7372_Zone B,NP0443WK402003,,,,,12,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,MS_Dot_Net_Framework,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,3,10,1
+NP_C10-NCCM-W_7372_Zone B,NP0443WK402005,,,,,11,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,MS_Dot_Net_Framework,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,3,10,2
+NP_C10-NCCM-W_7372_Zone B,NP0443WK403355,,,,,13,"Adobe_Acrobat_Pro_DC_Continuous_STIG,Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,14,21,1
+NP_C10-NCCM-W_7372_Zone B,NP0443WK403360,,,,,14,"Adobe_Acrobat_Pro_DC_Continuous_STIG,Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,14,20,2
+NP_C10-NCCM-W_7372_Zone B,NP0443WK403361,,,,,12,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,MS_Dot_Net_Framework,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,3,11,2
+NP_C10-NCCM-W_7372_Zone B,NP0443WK403362,,,,,11,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,MS_Dot_Net_Framework,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,3,9,3
+NP_C10-NCCM-W_7372_Zone B,NP0443WK403363,,,,,11,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,MS_Dot_Net_Framework,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,1,7,2
+NP_C10-NCCM-W_7372_Zone B,NP0443WK413595,,,,,12,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,MS_Dot_Net_Framework,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,4,11,1
+NP_C10-NCCM-W_7372_Zone B,NP0443WK413596,,,,,10,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,MS_Dot_Net_Framework,IE_11_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,4,11,1
+NP_C10-NCCM-W_7372_Zone B,NP0479NB002264,,,,,13,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,5,44,2
+NP_C10-NCCM-W_7372_Zone B,NP0479WK002190,,,,,14,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,3,43,3
+NP_C10-NCCM-W_7372_Zone B,NP0479WK005173,,,,,14,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,3,45,3
+NP_C10-NCCM-W_7372_Zone B,NP0479WK712466,,,,,13,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,5,43,2
+NP_C10-NCCM-W_7372_Zone B,NP05399165,,,,,13,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,2,9,2
+NP_C10-NCCM-W_7372_Zone B,NP0902NB417902,,,,,10,"MS_Dot_Net_Framework,IE_11_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2016,Microsoft_Office_System_2016,Microsoft_OneDrive,Microsoft_PowerPoint_2016,Microsoft_Word_2016,MS_Windows_10_STIG",98%,51%,0%,0%,14,284,8
+NP_C10-NCCM-W_7372_Zone B,NP1265WK414429,,,,,13,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2016,Microsoft_Office_System_2016,Microsoft_OneDrive,Microsoft_PowerPoint_2016,Microsoft_Word_2016,MS_Windows_10_STIG",80%,0%,0%,0%,3,6,2
+NP_C10-NCCM-W_7372_Zone B,NP1265WK414434,,,,,13,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,5,44,2
+NP_C10-NCCM-W_7372_Zone B,NP1267NB405016,,,,,10,"MS_Dot_Net_Framework,IE_11_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2016,Microsoft_Office_System_2016,Microsoft_OneDrive,Microsoft_PowerPoint_2016,Microsoft_Word_2016,MS_Windows_10_STIG",83%,0%,0%,0%,1,42,2
+NP_C10-NCCM-W_7372_Zone B,NP1267WK414403,,,,,14,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,5,44,2
+NP_C10-NCCM-W_7372_Zone B,NP1274WK402164,,,,,14,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,JRE_8_and_Windows_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,5,41,3
+NP_C10-NCCM-W_7372_Zone B,NPRI75CAD18,,,,,13,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,5,61,4
+NP_C10-NCCM-W_7372_Zone B,W34-RFDACS03,,,,,13,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,IE_11_STIG,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_Office_System_2013,Microsoft_OneDrive,Microsoft_PowerPoint_2013,Microsoft_Word_2013,MS_Windows_10_STIG",84%,0%,0%,0%,3,36,2
+NP_C10-NewPortal_2862_,C27APLNWPT14,,,,,5,"HBSS_PolicyAuditor,IE_11_STIG,McAfee_ENS_10-x_STIG,MS_Dot_Net_Framework,Windows_Server_2019_STIG",54%,0%,0%,0%,1,18,0
+NP_C10-NewPortal_2862_,C27APLNWPT71,,,,,9,"HBSS_PolicyAuditor,IE_11_STIG,IIS_10-0_Server_STIG,IIS_10-0_Site_STIG,McAfee_ENS_10-x_STIG,Microsoft_SharePoint_Server_2013,MS_Dot_Net_Framework,VMW_vSphere_6-7_Virtual_Machine_STIG,Windows_Server_2016_STIG",57%,0%,0%,0%,1,5,0
+NP_C10-NewPortal_2862_,C27APLNWPT72,,,,,9,"HBSS_PolicyAuditor,IE_11_STIG,IIS_10-0_Server_STIG,IIS_10-0_Site_STIG,McAfee_ENS_10-x_STIG,Microsoft_SharePoint_Server_2013,MS_Dot_Net_Framework,VMW_vSphere_6-7_Virtual_Machine_STIG,Windows_Server_2016_STIG",57%,0%,0%,0%,1,5,0
+NP_C10-NewPortal_2862_,C27COMMVNWPT01,,,,,8,"HBSS_PolicyAuditor,IE_11_STIG,IIS_10-0_Server_STIG,IIS_10-0_Site_STIG,McAfee_ENS_10-x_STIG,MS_Dot_Net_Framework,VMW_vSphere_6-7_Virtual_Machine_STIG,Windows_Server_2019_STIG",55%,2%,0%,0%,0,11,0
+NP_C10-NewPortal_2862_,C27COMMVNWPT02,,,,,6,"HBSS_PolicyAuditor,IE_11_STIG,McAfee_ENS_10-x_STIG,MS_Dot_Net_Framework,VMW_vSphere_6-7_Virtual_Machine_STIG,Windows_Server_2019_STIG",57%,0%,0%,0%,1,2,0
+NP_C10-NewPortal_2862_,C27COMMVNWPT03,,,,,7,"HBSS_PolicyAuditor,IE_11_STIG,McAfee_ENS_10-x_STIG,MS_Defender_Antivirus,MS_Dot_Net_Framework,VMW_vSphere_6-7_Virtual_Machine_STIG,Windows_Server_2019_STIG",60%,0%,0%,0%,0,1,0
+NP_C10-NewPortal_2862_,C27COMMVNWPT04,,,,,7,"HBSS_PolicyAuditor,IE_11_STIG,McAfee_ENS_10-x_STIG,MS_Defender_Antivirus,MS_Dot_Net_Framework,VMW_vSphere_6-7_Virtual_Machine_STIG,Windows_Server_2019_STIG",60%,0%,0%,0%,0,1,0
+NP_C10-NewPortal_2862_,C27COMMVNWPT05,,,,,6,"HBSS_PolicyAuditor,IE_11_STIG,McAfee_ENS_10-x_STIG,MS_Defender_Antivirus,MS_Dot_Net_Framework,Windows_Server_2019_STIG",59%,0%,0%,0%,0,1,0
+NP_C10-NewPortal_2862_,C27DATNWPT71,,,,,7,"HBSS_PolicyAuditor,HBSS_Rogue_Sensor,IE_11_STIG,McAfee_ENS_10-x_STIG,MS_Dot_Net_Framework,VMW_vSphere_6-7_Virtual_Machine_STIG,Windows_Server_2016_STIG",58%,0%,0%,0%,1,3,0
+NP_C10-NewPortal_2862_,C27DATNWPT72,,,,,6,"HBSS_PolicyAuditor,IE_11_STIG,McAfee_ENS_10-x_STIG,MS_Dot_Net_Framework,VMW_vSphere_6-7_Virtual_Machine_STIG,Windows_Server_2016_STIG",58%,0%,0%,0%,1,3,0
+NP_C10-NewPortal_2862_,C27DDATNWPT71,,,,,6,"HBSS_PolicyAuditor,IE_11_STIG,McAfee_ENS_10-x_STIG,MS_Dot_Net_Framework,VMW_vSphere_6-7_Virtual_Machine_STIG,Windows_Server_2016_STIG",58%,0%,0%,0%,1,8,0
+NP_C10-NewPortal_2862_,C27DWEBNWPT71,,,,,9,"HBSS_PolicyAuditor,IE_11_STIG,IIS_10-0_Server_STIG,IIS_10-0_Site_STIG,McAfee_ENS_10-x_STIG,Microsoft_SharePoint_Server_2013,MS_Dot_Net_Framework,VMW_vSphere_6-7_Virtual_Machine_STIG,Windows_Server_2016_STIG",57%,0%,0%,0%,2,11,0
+NP_C10-NewPortal_2862_,C27WEBNWPT71,,,,,9,"HBSS_PolicyAuditor,IE_11_STIG,IIS_10-0_Server_STIG,IIS_10-0_Site_STIG,McAfee_ENS_10-x_STIG,Microsoft_SharePoint_Server_2013,MS_Dot_Net_Framework,VMW_vSphere_6-7_Virtual_Machine_STIG,Windows_Server_2016_STIG",57%,0%,0%,0%,1,6,0
+NP_C10-NewPortal_2862_,C27WEBNWPT72,,,,,9,"HBSS_PolicyAuditor,IE_11_STIG,IIS_10-0_Server_STIG,IIS_10-0_Site_STIG,McAfee_ENS_10-x_STIG,Microsoft_SharePoint_Server_2013,MS_Dot_Net_Framework,VMW_vSphere_6-7_Virtual_Machine_STIG,Windows_Server_2016_STIG",57%,0%,0%,0%,3,7,0
+NP_C10-NewPortal_2862_,NPRI54WEB23,,,,,9,"Application_Security_Development_STIG,HBSS_PolicyAuditor,IE_11_STIG,IIS_8-5_Server_STIG,IIS_8-5_Site_STIG,McAfee_ENS_10-x_STIG,MS_Defender_Antivirus,MS_Dot_Net_Framework,Windows_2012_MS_STIG",57%,0%,0%,0%,1,6,1
+NP_C10-RDT&E-CSS_7374_Zone B,902HCS02,,,,,4,"MS_Dot_Net_Framework,IE_11_STIG,VMware_Horizon_7-13_Connection_Server_STIG,Windows_Server_2016_STIG",94%,91%,0%,0%,0,13,3
+NP_C10-RDT&E-CSS_7374_Zone B,NPA0APPSCN01,,,,,4,"MS_Dot_Net_Framework,IE_11_STIG,IIS_10-0_Server_STIG,Windows_Server_2016_STIG",92%,89%,4%,0%,2,14,0
+NP_C10-RDT&E-CSS_7374_Zone B,NPA0ARCGIS01,,,,,4,"Google_Chrome_Current_Windows,MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2016_STIG",95%,94%,0%,0%,0,2,0
+NP_C10-RDT&E-CSS_7374_Zone B,NPA0ARCGIS02,,,,,4,"Google_Chrome_Current_Windows,MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG",99%,98%,0%,0%,0,3,1
+NP_C10-RDT&E-CSS_7374_Zone B,NPA0ARCGISDATA,,,,,4,"IE_11_STIG,Windows_Server_2019_STIG,MS_Defender_Antivirus,MS_Dot_Net_Framework",99%,99%,9%,0%,0,1,0
+NP_C10-RDT&E-CSS_7374_Zone B,NPA0ARCGISPRTL,,,,,5,"Google_Chrome_Current_Windows,MS_Dot_Net_Framework,IE_11_STIG,MS_Defender_Antivirus,Windows_Server_2019_STIG",99%,98%,8%,0%,0,2,1
+NP_C10-RDT&E-CSS_7374_Zone B,NPA0ARCGISSTORE,,,,,5,"Google_Chrome_Current_Windows,MS_Dot_Net_Framework,IE_11_STIG,MS_Defender_Antivirus,Windows_Server_2019_STIG",99%,98%,8%,0%,0,1,1
+NP_C10-RDT&E-CSS_7374_Zone B,NPA0ASDLENEL02,,,,,3,"MS_Dot_Net_Framework,Windows_Server_2019_STIG,IE_11_STIG",99%,98%,0%,0%,0,4,1
+NP_C10-RDT&E-CSS_7374_Zone B,NPA0KEYCLOAK,,,,,4,"Google_Chrome_Current_Windows,MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG",99%,98%,0%,0%,0,1,1
+NP_C10-RDT&E-CSS_7374_Zone B,NPA0VSMART01,,,,,4,"MS_Dot_Net_Framework,IE_11_STIG,IIS_10-0_Server_STIG,Windows_Server_2019_STIG",96%,92%,4%,0%,3,14,0
+NP_C10-RDT&E-CSS_7374_Zone B,NPA3VDIP1,,,,,3,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG",99%,99%,0%,0%,0,0,0
+NP_C10-RDT&E-CSS_7374_Zone B,NPA3VDIP2,,,,,3,"MS_Dot_Net_Framework,Windows_Server_2019_STIG,IE_11_STIG",99%,99%,0%,0%,0,0,0
+NP_C10-RDT&E-CSS_7374_Zone B,NPA7DFS01,,,,,3,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2016_STIG",95%,95%,0%,0%,0,0,0
+NP_C10-RDT&E-CSS_7374_Zone B,NPA7DFS02,,,,,3,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2016_STIG",95%,95%,0%,0%,0,0,0
+NP_C10-RDT&E-CSS_7374_Zone B,UVTC-GATEKEEPER,,,,,0,,0%,0%,0%,0%,0,0,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPA0COMMV01-NPA0COMMV01-COMMVAULT,,,,,1,MS_SQL_Server_2016_Instance_STIG,96%,91%,86%,5%,1,22,2
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPA0SOLAR01-SolarWinds NetPerfMon-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPA0SQLAPP01-NPA0SQLAPP01-_master,,,,,1,MS_SQL_Server_2016_Database_STIG,100%,100%,100%,0%,0,1,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPA0SQLAPP01-NPA0SQLAPP01-NA,,,,,1,MS_SQL_Server_2016_Instance_STIG,100%,100%,100%,0%,0,6,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPA2NDES01-Default Web Site-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,100%,0%,0,9,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPA4ASDSQLAG01-NPA4ASDSQLAG01-SQLSERVER2017,Charles H.,,Matt Albertella,,1,MS_SQL_Server_2016_Instance_STIG,100%,100%,100%,0%,1,7,1
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPA4ASDSQLAG01-NPA4ASDSQLAG01-SQLSERVER2017_master,,,,,1,MS_SQL_Server_2016_Database_STIG,100%,100%,100%,0%,0,1,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPA4ASDSQLDEV01-NPA4ASDSQLDEV01-SQLDEV01,Charles H.,,Matt Albertella,,1,MS_SQL_Server_2016_Instance_STIG,100%,100%,100%,0%,1,6,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPA4ASDSQLDEV01-NPA4ASDSQLDEV01-SQLDEV01_master,,,,,1,MS_SQL_Server_2016_Database_STIG,100%,100%,100%,0%,0,1,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPA4ORACLE02,,,,ORACLE,1,Oracle_Database_12c_STIG,99%,99%,99%,0%,0,3,1
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPA4SQLAG01-NPA4SQLAG01-SQLSERVER2017,Charles H.,,Matt Albertella,,1,MS_SQL_Server_2016_Instance_STIG,100%,100%,100%,0%,1,8,1
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPA4SQLAG01-NPA4SQLAG01-SQLSERVER2017_master,,,,,1,MS_SQL_Server_2016_Database_STIG,100%,100%,100%,0%,0,1,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPA4SQLAG01-NPA4SQLAG01-VDISQL,Charles H.,,Matt Albertella,,1,MS_SQL_Server_2016_Instance_STIG,100%,100%,100%,0%,1,8,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPA4SQLAG02-NPA4SQLAG02-SQLSERVER2017,Charles H.,,Matt Albertella,,1,MS_SQL_Server_2016_Instance_STIG,100%,100%,100%,0%,1,8,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPA4SQLAG02-NPA4SQLAG02-SQLSERVER2017_master,,,,,1,MS_SQL_Server_2016_Database_STIG,100%,100%,100%,0%,0,1,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPA4SQLAG02-NPA4SQLAG02-VDISQL,Charles H.,,Matt Albertella,,1,MS_SQL_Server_2016_Instance_STIG,100%,100%,100%,0%,1,8,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPA4SQLDEV01-NPA4SQLDEV01-SQLSERVER2017,Charles H.,,Matt Albertella,,1,MS_SQL_Server_2016_Instance_STIG,100%,100%,100%,0%,1,6,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPA4SQLDEV01-NPA4SQLDEV01-SQLSERVER2017_master,,,,,1,MS_SQL_Server_2016_Database_STIG,100%,100%,100%,0%,0,1,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPA4SQLDEV01-NPA4SQLDEV01-SQLTEST,Charles H.,,Matt Albertella,,1,MS_SQL_Server_2016_Instance_STIG,100%,100%,100%,0%,1,6,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPA4SQLPRD01-NPA4SQLPRD01-SQLSERVER2017,Charles H.,,Matt Albertella,,1,MS_SQL_Server_2016_Instance_STIG,100%,100%,100%,0%,1,6,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPA4SQLPRD01-NPA4SQLPRD01-SQLSERVER2017_master,,,,,1,MS_SQL_Server_2016_Database_STIG,100%,100%,100%,0%,0,1,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPA4SQLSCCM01-NPA4SQLSCCM01-SQLSERVER2017,Charles H.,,Matt Albertella,,1,MS_SQL_Server_2016_Instance_STIG,100%,100%,100%,0%,1,7,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPA4SQLSCCM01-NPA4SQLSCCM01-SQLSERVER2017_master,,,,,1,MS_SQL_Server_2016_Database_STIG,100%,100%,100%,0%,0,1,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPB7SCCM01-Default Web Site-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,100%,0%,0,7,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPB7SCCM02-Default Web Site-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,100%,0%,0,7,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPC2902WEB-01-Default Web Site-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,7%,0%,0,10,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPC2902WEB-01-NP-CRL-NA,,,,,1,IIS_10-0_Site_STIG,82%,66%,0%,0%,0,7,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPC2ASDIISDEV01-Default Web Site-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,100%,0%,0,7,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPC2ASDIISPRO01-Default Web Site-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,100%,0%,0,8,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPC2ASDIISPRO02-Default Web Site-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,100%,0%,0,6,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPC2ISMSDEV01-Default Web Site-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,100%,0%,0,13,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPC2ISMSPRO01-Default Web Site-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPC2WEB02-Default Web Site-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,100%,0%,0,12,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPD2WSUS01-Default Web Site-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPDMWUG01-Default Web Site-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,100%,0%,0,14,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPRICAINT00-Default Web Site-NA,,,,,1,IIS_8-5_Site_STIG,98%,96%,0%,0%,0,1,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPRICAINT00-pki.nptrdte.nuwc.navy.mil-NA,,,,,1,IIS_8-5_Site_STIG,96%,85%,0%,0%,0,5,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPRIRMPS10-Default Web Site-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,7%,0%,0,0,0
+NP_C10-UnclassCore Database/Web_1761_Zone A_,NPRIRMPS10-WSUS Administration-NA,,,,,1,IIS_10-0_Site_STIG,100%,100%,0%,0%,0,4,0
+NP_C10-UnclassCore PL_1761_Zone A,902DAT11,,,,PENDING DECOM,3,"MS_Dot_Net_Framework,IE_11_STIG,Windows_2012_MS_STIG",93%,93%,93%,0%,0,5,1
+NP_C10-UnclassCore PL_1761_Zone A,902MPS29A,,,,,0,,0%,0%,0%,0%,0,0,0
+NP_C10-UnclassCore PL_1761_Zone A,NP0902WK400188,,,,,2,"MOZ_Firefox_STIG,RHEL_7_STIG",73%,73%,73%,0%,0,6,0
+NP_C10-UnclassCore PL_1761_Zone A,NP0902WK402124,,,,,2,"MOZ_Firefox_STIG,RHEL_7_STIG",73%,73%,73%,0%,0,4,0
+NP_C10-UnclassCore PL_1761_Zone A,Zone_A_Enclave,,,,,1,Enclave_-_Zone_A,100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,902-PrimaryFW,Ryan Nario,,,,3,"Palo_Alto_Networks_NDM_STIG,Palo_Alto_Networks_IDPS_STIG,Palo_Alto_Networks_ALG_STIG",100%,100%,95%,0%,1,4,0
+NP_C10-UnclassCore_1761_Zone A_Network,902-SecondaryFW,Ryan Nario,,,,3,"Palo_Alto_Networks_NDM_STIG,Palo_Alto_Networks_IDPS_STIG,Palo_Alto_Networks_ALG_STIG",100%,100%,95%,0%,1,4,0
+NP_C10-UnclassCore_1761_Zone A_Network,ASD_SDP-RTR1,Ryan Nario,,,,2,"Cisco_IOS-XE_Router_NDM_STIG,Cisco_IOS-XE_Router_RTR_STIG",100%,100%,97%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,B111-RM103-SW1,Ryan Nario,,,,2,"Cisco_IOS_Switch_NDM_STIG,Cisco_IOS_Switch_L2S_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,B111-RM104-REMRTR3,Ryan Nario,,,,2,"Cisco_IOS-XE_Router_RTR_STIG,Cisco_IOS-XE_Router_NDM_STIG",100%,100%,97%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,B111-RM104-VPN1,Ryan Nario,,,,3,"Cisco_ASA_IPS_STIG,Cisco_ASA_NDM_STIG,Cisco_ASA_VPN_STIG",100%,100%,96%,0%,0,8,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPB6ASDISE01,Ryan Nario,,,,3,"Cisco_ISE_NAC_STIG,Cisco_ISE_NDM_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",100%,100%,100%,0%,0,2,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPB6ASDISE02,Ryan Nario,,,,3,"Cisco_ISE_NAC_STIG,Cisco_ISE_NDM_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",100%,100%,100%,0%,0,2,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPB6RDTEFMC01,David Austin,,Patrick Hurney,,1,Cisco_ASA_IPS_STIG,100%,100%,100%,0%,0,4,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPB6RDTEISE01,Ryan Nario,,David Austin.,,2,"Cisco_ISE_NAC_STIG,Cisco_ISE_NDM_STIG",100%,100%,100%,0%,0,2,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPB6RDTEISE02,Ryan Nario,,David Austin.,,2,"Cisco_ISE_NAC_STIG,Cisco_ISE_NDM_STIG",100%,100%,100%,0%,0,2,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPB6RDTEISE03,David Austin,,Patrick Hurney,,3,"Cisco_ISE_NAC_STIG,Cisco_ISE_NDM_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",100%,100%,100%,0%,0,2,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPB6RDTEISE04,David Austin,,Patrick Hurney,,3,"Cisco_ISE_NAC_STIG,Cisco_ISE_NDM_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",100%,100%,100%,0%,0,2,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPB6TESTISE01,Ryan Nario,,David Austin.,,3,"Cisco_ISE_NAC_STIG,Cisco_ISE_NDM_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",100%,100%,100%,0%,0,1,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPB7-B111R104-WLC1,Ryan Nario,,,,2,"Network_WLAN_Controller_Platform_STIG,Network_WLAN_Controller_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPB7-B111R104-WLC2,Ryan Nario,,,,2,"Network_WLAN_Controller_Platform_STIG,Network_WLAN_Controller_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPB7-B111R104-WLC3,Ryan Nario,,,,2,"Network_WLAN_Controller_Platform_STIG,Network_WLAN_Controller_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPDMPALO01,,,Frank Marzano,,2,"Palo_Alto_Networks_IDPS_STIG,Palo_Alto_Networks_NDM_STIG",100%,100%,100%,0%,0,1,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPDMPALO02,,,Frank Marzano,,2,"Palo_Alto_Networks_IDPS_STIG,Palo_Alto_Networks_NDM_STIG",100%,100%,100%,0%,0,1,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD-ST22002-66,Ryan Nario,,,,2,"Cisco_IOS_Switch_NDM_STIG,Cisco_IOS_Switch_L2S_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1001-RM1-135,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1003-RM1-136,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1004-RM13-180,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1015-RM1-138,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1017-RM1-139,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1030-RM1-194,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1107-RM7-140,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1201-RM1-141,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1206-RM1-142,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1215-RM122-143,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1215-RM122-181,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1215-RM216-182,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1218-RM1-144,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1301-RM1-145,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1302-RM1-146,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1401-RM3-151,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1404-RM1-152,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1405-RM11-153,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1420-RM8-160,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1530-RM1-164,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1602-RM107-183,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1602-RM6-184,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1604-RM107-186,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1604-RM154-187,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1604-RM160-198,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1604-RM160B-189,Ryan Nario,,,,2,"Cisco_IOS_Switch_NDM_STIG,Cisco_IOS_Switch_L2S_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1604-RM162-167,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1604-RM165-200,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1604-RM168-150,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1604-RM199-185,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1604-RM207-190,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1604-RM210-188,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1681-RM1-199,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1701-RM1-DATA1,,,,,2,"Cisco_IOS_XE_Switch_NDM_STIG,Cisco_IOS_XE_Switch_L2S_STIG",100%,100%,51%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1701-RM1-DATA2,,,,,2,"Cisco_IOS_XE_Switch_NDM_STIG,Cisco_IOS_XE_Switch_L2S_STIG",100%,100%,51%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1701-RM1-DATA3,,,,,2,"Cisco_IOS_XE_Switch_NDM_STIG,Cisco_IOS_XE_Switch_L2S_STIG",100%,100%,51%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1922-RM1-174,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-ASD1939-RM1-177,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B101-RM114,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B102-RM107,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B102-RMConexA,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B102-RMConexB,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B102T-RM119C,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B103-RM128,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B103-RM144-SW1,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B103-RM144-SW2,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B104-RM101-APC1,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B104-RM101-APC2,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B104-RM101-APC3,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B104-RM101-APC4,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B104-RM101-B3COI,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B104-RM101-DISTRO,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B104-RM101-DMZSW1,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B104-RM101-HBSS,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B104-RM101-Row1R1,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B104-RM101-Row1R4,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B104-RM101-Row2R10,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B104-RM101-Row3R6,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B104-RM101-Row3R7,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B104-RM101-Row4R,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B104-RM101-Row4R7,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B104-RM101-Row4R8,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B104-RM101-SS1SS2,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B104-RM105,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B105-RM102,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B105-RM200,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B105-SMC-LENEL,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B106-RM113,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B109-RM108,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B11-RMD16,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B110-RM102,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B111-RM104-DISTRO,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B111-RM104-DMZSW1,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B111-RM104-DRENSW,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B111-RM104-FWSW,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B111-RM104-IDS-SW1,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B111-RM104-IDS-SW2,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B111-RM104-RACK10,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B111-RM104-RACK12,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B111-RM104-Rack2,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B111-RM104-Rack4,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B111-RM104-RackDistro,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B111-RM104-REMOTE,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B111-RM104-tempDISTRO,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B111-RM104-TESTC2960X,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B111-RM104-TESTC9300,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B111-RM105,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B111-RM200B-LAB1,Ryan Nario,,,,2,"Cisco_IOS_Switch_NDM_STIG,Cisco_IOS_Switch_L2S_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B111-RM200B-LAB2,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_NDM_STIG,Cisco_IOS_XE_Switch_L2S_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B111-RM204,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B111-RM204-TEST3650,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B113-RM114,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B114-RM200,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B115-RM108,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B115-RM121,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B116-RM100-LENEL2,Ryan Nario,,,,2,"Cisco_IOS_Switch_NDM_STIG,Cisco_IOS_Switch_L2S_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B116-RM118,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B117-RM102,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1170-RM171,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1170-RMM03,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1171-RM106,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1171-RM110,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1171-RM117,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1171-RM120,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1171-RM154-LENEL2,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1171-RM206,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1171-RM309,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1171AB-RM200,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1171C-RM100,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1171HB-RMM1,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1176-RM115,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1176-RM171A,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1176-RM195C,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B119-RM113,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B119-RM209B,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B123-RMM02,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B124-RMM1,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1246-RM100A,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1246-RM207,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1251-RM106,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1252-RMC1,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1258-RM134,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1258-RM141,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1258-RM245,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1258-RM284,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1259-RM125,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1259-RM250,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1259-RM280,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B126-RM103,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1272-RM103,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B130-RM102,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1302-RM126,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1302-RM208B,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1302-RM214A,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1318-RM108,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1319-RM110,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1319-RM124,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1319-RM217,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1319-RM317,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1319-RMB08,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1319-RMB18-LENEL1,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1319-RMB20,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1320-RM102,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1320-RM150,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1320-RM166,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1320-RM244,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1320-RM348,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1320-RM386A,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1320-RM429A-LENEL2,Ryan Nario,,,,2,"Cisco_IOS_Switch_NDM_STIG,Cisco_IOS_Switch_L2S_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1320-RM444,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1320-RM539,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1320-RM566B-LENEL1,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1320-RM570-LENEL2,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1341-RMHUT,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1341-RMHUT-DISTRO,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1346-RM113,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1346-RM206,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1346-RM308-LENEL2,Ryan Nario,,,,2,"Cisco_IOS_Switch_NDM_STIG,Cisco_IOS_Switch_L2S_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1346-RM405,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1349-RMHUT-DISTRO,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1350-RMHUT,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1350-RMHUT-DISTRO,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1351-RM109,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1351-RM207,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1351-RM307,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1351-RM407,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1371-CONEX1-LENEL1,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1371-CONEX2-LENEL2,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1371-RM126,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1371-RM226,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1371-RM258,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1371-RM260,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1371-RM326,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1371-RM358,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1371-RM426,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1371-RM458,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1404-RM118,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1404-RM209,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B1404-RM306,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B148-RM101B,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B148-RM206,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B149-RM101A,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B149-RM108-LENEL2,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B162-RM112,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B165-RM102,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B2-RM109,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B3-RM101,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B3-RM109-SW2,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B4-RM100,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B4-RM102,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B4-RM112,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B447-RM120,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B47-RM119B,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B47-RM122,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B47-RMBayC-East,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B47-RMBayD-West,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B5-RM102,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B5-RM102-SW2,Ryan Nario,,,,2,"Cisco_IOS_Switch_NDM_STIG,Cisco_IOS_Switch_L2S_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B6-RM103,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B679-RM112,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B679-RM209,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B68-RMM03,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B80-RM216,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B80-RM216-LENEL1,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B80-RM216-LENEL2,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B80-RMB1,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B990-RM120,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B990-RM226,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B990-RM326,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B990-RM422,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-B990-RM536,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-FTSTORY,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-STJULIEN,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-WPA-RM113-50,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-WPB0801-135,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-WPB0801-136,Ryan Nario,,,,2,"Cisco_IOS_Switch_L2S_STIG,Cisco_IOS_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-WPB0801-RM-137,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPML-WPB801-RMJ004,,,,,2,"Cisco_IOS_XE_Switch_NDM_STIG,Cisco_IOS_XE_Switch_L2S_STIG",100%,100%,35%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPRO_B111_EDGE1,Ryan Nario,,,,2,"Cisco_IOS-XE_Router_NDM_STIG,Cisco_IOS-XE_Router_RTR_STIG",100%,100%,97%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPRO_B111_EDGE2,Ryan Nario,,,,2,"Cisco_IOS-XE_Router_NDM_STIG,Cisco_IOS-XE_Router_RTR_STIG",100%,100%,97%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPRO-ASD-CLOSED,,,,,2,"Cisco_IOS-XE_Router_RTR_STIG,Cisco_IOS-XE_Router_NDM_STIG",100%,100%,0%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPRO-ASD-RTRSW,,,,,2,"Cisco_IOS_XE_Switch_NDM_STIG,Cisco_IOS_XE_Switch_RTR_STIG",100%,100%,99%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPRO-ASD-SITE1,,,,,2,"Cisco_IOS-XE_Router_NDM_STIG,Cisco_IOS-XE_Router_RTR_STIG",100%,100%,0%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPRO-ASD-SITE2,,,,,2,"Cisco_IOS-XE_Router_RTR_STIG,Cisco_IOS-XE_Router_NDM_STIG",100%,100%,0%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPRO-ASD1701-RM1-CORE,,,,,3,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_RTR_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,18%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPRO-B111-RM104-CORE,Ryan Nario,,,,4,"Cisco_IOS_XE_Switch_NDM_STIG,Cisco_IOS_XE_Switch_RTR_STIG,Cisco_IOS_XE_Switch_L2S_STIG,Network_Infrastructure_Policy_STIG",100%,100%,91%,0%,0,1,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPRO-B111-RM104-REM1,Ryan Nario,,,,2,"Cisco_IOS-XE_Router_NDM_STIG,Cisco_IOS-XE_Router_RTR_STIG",100%,100%,97%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPRO-FTSTORY,Ryan Nario,,,,2,"Cisco_IOS-XE_Router_NDM_STIG,Cisco_IOS-XE_Router_RTR_STIG",100%,100%,97%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPRO-STJULIEN,Ryan Nario,,,,2,"Cisco_IOS-XE_Router_NDM_STIG,Cisco_IOS-XE_Router_RTR_STIG",100%,100%,97%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPRO-WPB-AIRPORT,Ryan Nario,,,,2,"Cisco_IOS-XE_Router_NDM_STIG,Cisco_IOS-XE_Router_RTR_STIG",100%,100%,97%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPRO-WPB-CLOSED,,,,,2,"Cisco_IOS-XE_Router_RTR_STIG,Cisco_IOS-XE_Router_NDM_STIG",100%,100%,0%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPRO-WPB-REMRTR,Ryan Nario,,,,2,"Cisco_IOS-XE_Router_NDM_STIG,Cisco_IOS-XE_Router_RTR_STIG",100%,100%,97%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPRO-WPB-RTRSW,Ryan Nario,,,,2,"Cisco_IOS_XE_Switch_NDM_STIG,Cisco_IOS_XE_Switch_RTR_STIG",100%,100%,99%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPRO-WPB801-RMJ004-CORE,,,,,3,"Cisco_IOS_XE_Switch_L2S_STIG,Cisco_IOS_XE_Switch_RTR_STIG,Cisco_IOS_XE_Switch_NDM_STIG",100%,100%,21%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPVPRDTEVPN01,Ryan Nario,,,,3,"Cisco_ASA_IPS_STIG,Cisco_ASA_NDM_STIG,Cisco_ASA_VPN_STIG",100%,100%,96%,0%,0,5,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPVPRDTEVPN02,Ryan Nario,,,,3,"Cisco_ASA_IPS_STIG,Cisco_ASA_NDM_STIG,Cisco_ASA_VPN_STIG",100%,100%,96%,0%,0,5,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPVPRDTEVPN04,Ryan Nario,,,,3,"Cisco_ASA_IPS_STIG,Cisco_ASA_NDM_STIG,Cisco_ASA_VPN_STIG",100%,100%,96%,0%,0,8,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B101-RM114,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B102-RM107,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B102T-RM119C,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B103-RM116,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B103-RM118,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B103-RM131,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B103-RM136,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B103-RM147,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B104-RM103,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B104-RMW29,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B105-RM102,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B106-RM114,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B109-RM108,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B11-RMD16,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B111-R206,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B111-RM104,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B111-RM203,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B111-RM204F,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B111-RM207E,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B111-RM210,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B113-RM114,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B114-RM200,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1170-RM171,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1170-RMM1,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1171-RM106,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1171-RM206,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1171-RM306,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1176-RM115,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1176-RM171A,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B119-RM101,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B119-RM107,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1246-RM100,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1246-RM203,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1251-RM106,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1252-RMC1,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1258-RM134,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1258-RM245,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1258-RM317,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1259-RM210,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1259-RM243,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1259-RM254,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1259-RM261,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1259-RMC2_142,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1259-RMC2_42,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1259-RMC2_5,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1259-RMWC2_123,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1259-RMWC2_4,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B126-RM103,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1272-RM103,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1302-RM121,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1302-RM214A,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1318-RM108,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1319-RM110,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1319-RM118,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1319-RM130,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1319-RM138,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1319-RM147,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1319-RM209,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1319-RM217,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1319-RM227,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1319-RM251,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1319-RM308,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1319-RM317,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1319-RM326,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1319-RM354,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1319-RMB06,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1319-RMB25,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM166,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM203,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM207,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM214,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM221,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM226,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM232,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM246,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM250,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM259,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM265,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM270,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM278,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM309,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM323,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM335,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM358,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM372,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM383,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM407,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM422,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM433,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM453,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM468,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM504,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM512,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM518,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM541,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM550,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1320-RM572,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1346-RM111,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1346-RM206,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1346-RM305,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1346-RM405,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1351-RM109,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1351-RM207,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1351-RM307,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1351-RM407,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1371-RM109,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1371-RM115,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1371-RM126,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1371-RM214,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1371-RM228,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1371-RM238,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1371-RM246A,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1371-RM258,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1371-RM315,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1371-RM326,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1371-RM330N,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1371-RM344,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1371-RM358,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1371-RM362P,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1371-RM407,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1371-RM415,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1371-RM426,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1371-RM438,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1371-RM458,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1371-RM460L1,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1404-RM107,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1404-RM204,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1404-RM209,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1404-RM227,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B1404-RM307,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B162-RM112,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B6-RM103,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B679-RM112,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B679-RM209,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B80-RMB11,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B990-RM120,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B990-RM226,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B990-RM325,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B990-RM406,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B990-RM411,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B990-RM423,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B990-RM536,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,NPWA-B990-RM616,Ryan Nario,,,,2,"Network_WLAN_AP-NIPR_Platform_STIG,Network_WLAN_AP-NIPR_Mgmt_STIG",100%,100%,100%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Network,WPB_SDP-RTR1,Ryan Nario,,,,2,"Cisco_IOS-XE_Router_NDM_STIG,Cisco_IOS-XE_Router_RTR_STIG",100%,100%,97%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,NP0902NB402273,David Austin,,David Austin.,,5,"MOZ_Firefox_STIG,RHEL_7_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG",100%,100%,15%,0%,0,10,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,NPA0ACAS02,Joe Pumphrey,,Corey Long,,5,"RHEL_7_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",97%,97%,14%,0%,0,6,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,NPA0AIH,Jason Plourde,,,,4,"RHEL_7_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG",100%,100%,7%,0%,0,10,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,NPA0ASDNESSUS01,Jason Plourde,,Alex Kasparek,,5,"RHEL_7_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",96%,96%,14%,0%,0,10,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,NPA0ASDNMS01,Mark Heiser,,Chris Medeiros,,5,"RHEL_7_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",100%,100%,14%,0%,0,7,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,npa0aznessus01,Jason Plourde,,Alex Kasparek,,4,"RHEL_7_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG",95%,93%,7%,0%,1,7,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,NPA0BUCKET01,Joe Pumphrey,Corey Long.,,,5,"RHEL_7_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",100%,100%,14%,0%,0,9,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,NPA0CTLT01,Joe Pumphrey,Corey Long.,,,5,"RHEL_7_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",100%,100%,13%,0%,0,1,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,NPA0NESSUS00,Jason Plourde,,Alex Kasparek,,4,"RHEL_8_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG",92%,92%,76%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,NPA0NESSUS02,Jason Plourde,,Alex Kasparek,,4,"RHEL_8_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG",92%,92%,76%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,NPA0NESSUS03,Jason Plourde,,Alex Kasparek,,4,"RHEL_8_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG",92%,92%,76%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,NPA0NESSUS04,Jason Plourde,,Alex Kasparek,,4,"RHEL_8_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG",92%,92%,76%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,npa0nessus05,Jason Plourde,,Alex Kasparek,,5,"RHEL_8_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",92%,92%,78%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,NPA0NESSUS06,Jason Plourde,,Alex Kasparek,,4,"RHEL_7_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG",96%,92%,7%,0%,1,12,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,NPA0NESSUSMAN01,Jason Plourde,,Alex Kasparek,,5,"RHEL_8_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",92%,92%,78%,0%,0,2,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,NPA0NETNMS01,Joe Pumphrey,,Corey Long,,5,"RHEL_7_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",100%,100%,14%,0%,0,4,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,NPA0NFS01,Joe Pumphrey,,Corey Long,,2,"RHEL_7_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",100%,100%,12%,0%,0,9,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,NPA0NMS14,Corey Long.,,Corey Long,,5,"RHEL_7_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",100%,100%,13%,0%,0,1,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,NPA0NMS15,Joe Pumphrey,,Corey Long,,5,"RHEL_7_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",100%,100%,13%,0%,0,1,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,NPA0NNM01,Jason Plourde,,Alex Kasparek,,1,RHEL_7_STIG,93%,91%,1%,0%,0,6,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,NPA0SATELLITE,Joe Pumphrey,,Corey Long,,5,"RHEL_7_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",100%,100%,14%,0%,0,13,1
+NP_C10-UnclassCore_1761_Zone A_Non-Win,npa0splm02,Craig F.,,Chris Medeiros,,6,"RHEL_7_STIG,Splunk_Enterprise_8-x_for_Linux_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",98%,96%,22%,0%,0,8,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,npa0splx04,Craig F.,,Chris Medeiros,,6,"RHEL_7_STIG,Splunk_Enterprise_8-x_for_Linux_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",100%,100%,22%,0%,0,6,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,npa0splx05,Craig F.,,Chris Medeiros,,6,"RHEL_7_STIG,Splunk_Enterprise_8-x_for_Linux_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",100%,100%,22%,0%,0,6,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,npa0splx06,Craig F.,,Chris Medeiros,,6,"RHEL_7_STIG,Splunk_Enterprise_8-x_for_Linux_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",100%,100%,22%,0%,0,6,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,NPA0SYS01,Joe Pumphrey,,Corey Long,,5,"RHEL_8_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",100%,100%,10%,0%,0,10,1
+NP_C10-UnclassCore_1761_Zone A_Non-Win,NPA0TOWER,Joe Pumphrey,,Corey Long,,5,"RHEL_7_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",100%,100%,14%,0%,0,7,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,NPA0TOWER01,Joe Pumphrey,,Corey Long,,5,"RHEL_8_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",100%,100%,10%,0%,0,5,1
+NP_C10-UnclassCore_1761_Zone A_Non-Win,NPA0ZK,Jason Plourde,,,,4,"RHEL_7_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG",100%,100%,7%,0%,0,8,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,NPB6ADAWL,Jason Plourde,,Mark Thistle,,5,"RHEL_8_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",92%,92%,78%,0%,0,2,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,NPC2SPLS02,Craig F.,,Chris Medeiros,,6,"RHEL_7_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,Splunk_Enterprise_8-x_for_Linux_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",100%,97%,22%,0%,1,11,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,npc2spls03,Craig F.,,Chris Medeiros,,6,"RHEL_7_STIG,Splunk_Enterprise_8-x_for_Linux_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",100%,100%,22%,0%,0,6,0
+NP_C10-UnclassCore_1761_Zone A_Non-Win,NPC6AXLS01,Chris Medeiros.,,Corey Long,,6,"RHEL_7_STIG,Splunk_Enterprise_8-x_for_Linux_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",100%,99%,22%,0%,0,10,0
+NP_C10-UnclassCore_1761_Zone A_Servers,902WEB01,Karl Vonwinkle,,,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_2012_MS_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,8%,0%,0,5,0
+NP_C10-UnclassCore_1761_Zone A_Servers,DNS1,Adrian Correia,,Jon Helgesen,,10,"MS_Dot_Net_Framework,IE_11_STIG,MS_Defender_Antivirus,Windows_Server_2019_STIG,DNS_Policy,Microsoft_Windows_2012_Server_Domain_Name_System_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,86%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,DNS5,Adrian Correia,,Jon Helgesen,,10,"MS_Dot_Net_Framework,IE_11_STIG,MS_Defender_Antivirus,Windows_Server_2019_STIG,DNS_Policy,Microsoft_Windows_2012_Server_Domain_Name_System_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,86%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,DNS6,Adrian Correia,,Jon Helgesen,,10,"MS_Dot_Net_Framework,IE_11_STIG,MS_Defender_Antivirus,Windows_Server_2019_STIG,DNS_Policy,Microsoft_Windows_2012_Server_Domain_Name_System_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,86%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA0902MPS044,Janet Bradley,,Dana Wellen,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,1,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA0APPV01,Adrian Correia,,Derek Durski.,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA0APPV02,Adrian Correia,,Derek Durski.,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA0ASDPCNS01,Jon Helgesen.,,Adrian Correia.,,7,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,Windows_Firewall_with_Advanced_Security",100%,100%,83%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA0COMMV01,Pete Macias,,Philip Lenz,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,1,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA0COMMVDMZ01,Adrian Correia,,Philip Lenz,,8,"MS_Dot_Net_Framework,IE_11_STIG,MS_Defender_Antivirus,Windows_Server_2019_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,84%,0%,0,1,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA0COMPOSER01,Adrian Correia,,Derek Durski.,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA0FSMC01,Derek Durski,,Guy Minkin.,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA0HCS01,Adrian Correia,,Derek Durski.,,9,"MS_Dot_Net_Framework,IE_11_STIG,MS_Defender_Antivirus,Windows_Server_2019_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,80%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA0HCS02,Adrian Correia,,Derek Durski.,,9,"MS_Dot_Net_Framework,IE_11_STIG,MS_Defender_Antivirus,Windows_Server_2019_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,80%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA0HCS03,Adrian Correia,,Derek Durski.,,9,"MS_Dot_Net_Framework,IE_11_STIG,MS_Defender_Antivirus,Windows_Server_2019_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,80%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA0HCS04,Adrian Correia,,Derek Durski.,,9,"MS_Dot_Net_Framework,IE_11_STIG,MS_Defender_Antivirus,Windows_Server_2019_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,80%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA0JETADMIN01,David Austin,,Adrian Correia.,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA0MPS01,,,,,5,"MS_Dot_Net_Framework,IE_11_STIG,MS_Defender_Antivirus,Windows_Server_2019_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,68%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA0RESPROD01,Brian Knight,,Adrian Correia.,,9,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2016_STIG,MS_Defender_Antivirus,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,80%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA0SECSRV,Pete Macias,,Guy Minkin.,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,1,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA0SOLAR01,Jon Helgesen.,,Daniel Lariviere,,9,"MS_Dot_Net_Framework,IE_11_STIG,IIS_10-0_Server_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,72%,0%,0,1,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA0SQLAPP01,C.  Humphries,,Matt Albertella,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA0STIG01,Brian Knight,,,,9,"IE_11_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Server_2019_STIG,MS_Dot_Net_Framework,MS_Defender_Antivirus,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,Windows_Firewall_with_Advanced_Security",100%,100%,0%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA0WEF01,Michael Coleman,,Jon Helgesen,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2016_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,54%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA0WEF02,Michael Coleman,,Jon Helgesen,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA2NDES01,Derek Durski,,Adrian Correia.,,10,"MS_Dot_Net_Framework,IE_11_STIG,IIS_10-0_Server_STIG,MS_Defender_Antivirus,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,99%,74%,0%,2,3,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA3ASDDHCP01,John Deragon,,Wayne Bouchard,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA3ASDDHCP02,John Deragon,,Wayne Bouchard,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,2,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA3ASDFILE01,John Deragon,,,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,4,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA3ASDFILE02,John Deragon,,,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA3DFS01,Derek Durski,,Derek Durski.,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA3DFS02,Derek Durski,,Derek Durski.,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA3DHCP01,John Deragon,,Wayne Bouchard,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2016_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA3DHCP02,John Deragon,,Wayne Bouchard,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2016_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA3DHCP03,John Deragon,,Wayne Bouchard,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA3DHCP04,John Deragon,,Wayne Bouchard,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA3FILE01,John Deragon,,Jay Andrade.,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2016_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA3FILE02,John Deragon,,Jay Andrade.,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2016_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA3FILE03,John Deragon,,Peter Macias,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA3FILE04,John Deragon,,Peter Macias,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA3VDIP1,Derek Durski,,Adrian Correia.,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA3VDIP2,Derek Durski,,Adrian Correia.,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA4ASDSQLAG01,C.  Humphries,,Matt Albertella,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA4ASDSQLDEV01,C.  Humphries,,Matt Albertella,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA4ORACLE02,,,,,5,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,Application_Security_Development_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,79%,0%,4,8,1
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA4SQLAG01,C.  Humphries,,Matt Albertella,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA4SQLAG02,C.  Humphries,,Matt Albertella,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA4SQLDEV01,C.  Humphries,,Matt Albertella,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA4SQLPRD01,C.  Humphries,,Matt Albertella,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA4SQLSCCM01,C.  Humphries,,Matt Albertella,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA7DFS01,Brian Knight,,Derek Durski.,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2016_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPA7DFS02,Brian Knight,,Derek Durski.,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2016_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPB7SCCM01,Michael Coleman,,Derek Durski.,,10,"MS_Dot_Net_Framework,IE_11_STIG,IIS_10-0_Server_STIG,Windows_Server_2019_STIG,Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,74%,0%,1,1,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPB7SCCM02,Michael Coleman,,Derek Durski.,,10,"MS_Dot_Net_Framework,IE_11_STIG,IIS_10-0_Server_STIG,MS_Edge_STIG,Windows_Server_2016_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,75%,0%,1,5,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPC2902WEB-01,Adrian Correia,,Derek Durski.,,9,"MS_Dot_Net_Framework,IE_11_STIG,IIS_10-0_Server_STIG,Windows_Server_2016_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",99%,98%,6%,0%,0,4,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPC2ASDIISDEV01,Karl Vonwinkle,,Matt Albertella,,9,"MS_Dot_Net_Framework,IE_11_STIG,IIS_10-0_Server_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,99%,72%,0%,1,9,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPC2ASDIISPRO01,Karl Vonwinkle,,Matt Albertella,,9,"MS_Dot_Net_Framework,IE_11_STIG,IIS_10-0_Server_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,99%,72%,0%,2,8,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPC2ASDIISPRO02,Karl Vonwinkle,,Matt Albertella,,9,"MS_Dot_Net_Framework,IE_11_STIG,IIS_10-0_Server_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,99%,72%,0%,1,8,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPC2ASDIISPRO03,Karl Vonwinkle,,Matt Albertella,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,1,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPC2ISMSDEV01,Karl Vonwinkle,,Matt Albertella,,9,"MS_Dot_Net_Framework,IE_11_STIG,IIS_10-0_Server_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,99%,72%,0%,1,3,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPC2ISMSPRO01,Karl Vonwinkle,,Matt Albertella,,10,"MS_Dot_Net_Framework,IE_11_STIG,IIS_10-0_Server_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,Application_Security_Development_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,81%,0%,5,10,1
+NP_C10-UnclassCore_1761_Zone A_Servers,NPC2WEB02,Karl Vonwinkle,,Adrian Correia.,,9,"MS_Dot_Net_Framework,IE_11_STIG,IIS_10-0_Server_STIG,Windows_Server_2016_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",94%,93%,72%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPC7ASDCOMMV01,Pete Macias,,Philip Lenz,,8,"MS_Dot_Net_Framework,IE_11_STIG,MS_Defender_Antivirus,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,Windows_Firewall_with_Advanced_Security",100%,100%,84%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPC7ASDCOMMV02,Pete Macias,,Philip Lenz,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPC7COMMV03,Pete Macias,,Philip Lenz,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPC7COMMV04,Pete Macias,,Philip Lenz,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPC7COMMV05,Pete Macias,,Philip Lenz,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPC7COMMV06,Adrian Correia,,Peter Macias,,7,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,Windows_Firewall_with_Advanced_Security",100%,100%,83%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPC7COMMV07,Adrian Correia,,Philip Lenz,,8,"MS_Dot_Net_Framework,IE_11_STIG,MS_Defender_Antivirus,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,Windows_Firewall_with_Advanced_Security",100%,100%,84%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPD2WSUS01,Jon Rego,,Erin Riley.,,9,"MS_Dot_Net_Framework,IE_11_STIG,IIS_10-0_Server_STIG,Windows_Server_2016_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,72%,0%,0,2,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPDMRSD02,Mark Thistle,,Mark Thistle.,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_Rogue_Sensor,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,83%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPDMRSD03,Mark Thistle,,Mark Thistle.,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_Rogue_Sensor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,Windows_Firewall_with_Advanced_Security",100%,100%,83%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPDMRSD04,Mark Thistle,,William R,,9,"MS_Dot_Net_Framework,IE_11_STIG,MS_Defender_Antivirus,Windows_Server_2019_STIG,HBSS_Rogue_Sensor,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,84%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPDMWUG01,Derek Durski,,Derek Durski.,,9,"MS_Dot_Net_Framework,IE_11_STIG,IIS_10-0_Server_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,99%,72%,0%,0,9,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPPSASDPRT01,John Deragon,,Peter Macias,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,1,3,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPPSPRT01,John Deragon,,Peter Macias,,8,"MS_Dot_Net_Framework,IE_11_STIG,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,78%,0%,1,3,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPRI54ADDC04,Adrian Correia,,Jon Helgesen,,10,"MS_Dot_Net_Framework,IE_11_STIG,MS_Defender_Antivirus,Windows_Server_2019_STIG,DNS_Policy,Microsoft_Windows_2012_Server_Domain_Name_System_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,86%,0%,0,1,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPRICAINT00,Guy Minkin,,Peter Macias,,9,"MS_Dot_Net_Framework,IE_11_STIG,IIS_8-5_Server_STIG,Windows_2012_MS_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",99%,99%,7%,0%,0,6,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPRICAROOT00,Guy Minkin,,Peter Macias,,7,"MS_Dot_Net_Framework,IE_11_STIG,Windows_2012_MS_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,84%,0%,1,2,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPRIDMZDC01,Adrian Correia,,Guy Minkin.,,10,"DNS_Policy,Microsoft_Windows_2012_Server_Domain_Name_System_STIG,MS_Dot_Net_Framework,IE_11_STIG,MS_Defender_Antivirus,Windows_Server_2019_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,86%,0%,0,2,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPRIDMZDC02,Adrian Correia,,Guy Minkin.,,12,"DNS_Policy,Microsoft_Windows_2012_Server_Domain_Name_System_STIG,Active_Directory_Domain,Active_Directory_Forest,MS_Dot_Net_Framework,IE_11_STIG,MS_Defender_Antivirus,Windows_Server_2019_STIG,HBSS_PolicyAuditor,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,87%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPRIRDS01,Jay Andrade,,Guy Minkin.,,9,"MS_Dot_Net_Framework,IE_11_STIG,Windows_2012_DC_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,Microsoft_Windows_2012_Server_Domain_Name_System_STIG,DNS_Policy,Windows_Firewall_with_Advanced_Security",100%,100%,73%,0%,2,0,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPRIRDS02,Guy Minkin,,Peter Macias,,10,"MS_Dot_Net_Framework,IE_11_STIG,Windows_2012_DC_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Microsoft_Windows_2012_Server_Domain_Name_System_STIG,DNS_Policy,Windows_Firewall_with_Advanced_Security",100%,100%,71%,0%,2,1,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPRIRDS03,Guy Minkin,,Peter Macias,,12,"Active_Directory_Domain,Active_Directory_Forest,MS_Dot_Net_Framework,IE_11_STIG,Windows_2012_DC_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Microsoft_Windows_2012_Server_Domain_Name_System_STIG,DNS_Policy,Windows_Firewall_with_Advanced_Security",100%,100%,72%,0%,2,1,0
+NP_C10-UnclassCore_1761_Zone A_Servers,NPRIRMPS10,Jon Rego,,Erin Riley.,,10,"MS_Dot_Net_Framework,IE_11_STIG,IIS_10-0_Server_STIG,MS_Defender_Antivirus,Windows_Server_2019_STIG,HBSS_McAfee_Agent,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,5%,0%,0,1,0
+NP_C10-UnclassCore_1761_Zone A_Support,902COMPOSER01,,,,,7,"IE_11_STIG,MS_Dot_Net_Framework,VMW_vSphere_7-0_Virtual_Machine_STIG,McAfee_ENS_10-x_STIG,HBSS_PolicyAuditor,Windows_2012_MS_STIG,HBSS_McAfee_Agent",88%,88%,83%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Support,902VDIESX03,Derek Durski,,Adrian Correia,,1,VMW_vSphere_7-0_ESXi_STIG,100%,100%,0%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Support,902VDIESX04,Derek Durski,,Adrian Correia,,1,VMW_vSphere_7-0_ESXi_STIG,100%,100%,0%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Support,902VDIESX05,Derek Durski,,Adrian Correia,,1,VMW_vSphere_7-0_ESXi_STIG,100%,100%,0%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPA0IDM01,Adrian Correia.,,Adam Borba,,2,"VMW_vSphere_7-0_vCA_Photon_OS_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",100%,100%,0%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPA0VREALIZELOG01,,,,,2,"VMW_vSphere_7-0_vCA_Photon_OS_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",100%,100%,0%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPA0VROPS01,Adrian Correia.,,Derek Durski.,,2,"VMW_vSphere_7-0_vCA_Photon_OS_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",100%,100%,0%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPA0VROPS02,Adrian Correia.,,Adam Borba,,2,"VMW_vSphere_7-0_vCA_Photon_OS_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG",100%,100%,0%,0%,0,0,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPC7PURE,Adrian Correia.,,Brian Knight,,1,SAN,100%,100%,100%,0%,1,0,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPC7PUREFILE01,Adrian Correia.,,Brian Knight,,1,SAN,100%,100%,100%,0%,1,0,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPC7PUREVDI01,Adrian Correia.,,Brian Knight,,1,SAN,100%,100%,100%,0%,1,0,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPC7PUREVDI02 ,Adrian Correia.,,Brian Knight,,1,SAN,100%,100%,100%,0%,1,0,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPK8ASDESX01,Adrian Correia.,,Adrian Correia,,1,VMW_vSphere_7-0_ESXi_STIG,100%,100%,0%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPK8ASDESX02,Adrian Correia.,,Adrian Correia,,1,VMW_vSphere_7-0_ESXi_STIG,100%,100%,0%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPK8ASDESX03,Adrian Correia.,,Adrian Correia,,1,VMW_vSphere_7-0_ESXi_STIG,100%,100%,0%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPK8ESX01,Adrian Correia.,,Adrian Correia,,1,VMW_vSphere_7-0_ESXi_STIG,100%,100%,0%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPK8ESX02,Adrian Correia.,,Adrian Correia,,1,VMW_vSphere_7-0_ESXi_STIG,100%,100%,0%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPK8ESX03,Adrian Correia.,,Adrian Correia,,1,VMW_vSphere_7-0_ESXi_STIG,100%,100%,0%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPK8ESX04,Adrian Correia.,,Adrian Correia,,1,VMW_vSphere_7-0_ESXi_STIG,100%,100%,0%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPK8ESX05,Adrian Correia.,,Adrian Correia,,1,VMW_vSphere_7-0_ESXi_STIG,100%,100%,0%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPK8ESX06,Adrian Correia.,,Adrian Correia,,1,VMW_vSphere_7-0_ESXi_STIG,100%,100%,0%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPK8ESX07,Adrian Correia.,,Adrian Correia,,1,VMW_vSphere_7-0_ESXi_STIG,100%,100%,0%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPK8ESX08,Adrian Correia.,,Adrian Correia,,1,VMW_vSphere_7-0_ESXi_STIG,100%,100%,0%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPK8ESX09,Adrian Correia.,,Adrian Correia,,1,VMW_vSphere_7-0_ESXi_STIG,100%,100%,0%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPK8ESX10,Adrian Correia.,,Adrian Correia,,1,VMW_vSphere_7-0_ESXi_STIG,100%,100%,0%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPK8VDIESX01,Adrian Correia.,,Derek Durski.,,1,VMW_vSphere_7-0_ESXi_STIG,100%,100%,0%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPK8VDIESX02,Adrian Correia.,,Derek Durski.,,1,VMW_vSphere_7-0_ESXi_STIG,100%,100%,0%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPK8VDIESX03,Adrian Correia.,,Derek Durski.,,1,VMW_vSphere_7-0_ESXi_STIG,100%,100%,0%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPK8VDIESX04,Adrian Correia.,,Derek Durski.,,1,VMW_vSphere_7-0_ESXi_STIG,100%,100%,0%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPK8VDIESX05,Adrian Correia.,,Derek Durski.,,1,VMW_vSphere_7-0_ESXi_STIG,100%,100%,0%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPK8VDIESX06,Adrian Correia.,,Derek Durski.,,1,VMW_vSphere_7-0_ESXi_STIG,100%,100%,0%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPK8VDIESX07,Adrian Correia.,,Derek Durski.,,1,VMW_vSphere_7-0_ESXi_STIG,100%,100%,0%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPK8VDIESX08,Adrian Correia.,,Derek Durski.,,1,VMW_vSphere_7-0_ESXi_STIG,100%,100%,0%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPK8VDIESX09,Adrian Correia.,,Derek Durski.,,1,VMW_vSphere_7-0_ESXi_STIG,100%,100%,0%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPK8VDIESX10,Adrian Correia.,,Derek Durski.,,1,VMW_vSphere_7-0_ESXi_STIG,100%,100%,0%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPK8VDIESX11,Adrian Correia.,,Derek Durski.,,1,VMW_vSphere_7-0_ESXi_STIG,100%,100%,0%,0%,0,3,0
+NP_C10-UnclassCore_1761_Zone A_Support,NPK9VC01,,,,,1,VMW_vSphere_7-0_vCenter_STIG,100%,100%,0%,0%,1,2,0
+NP_C10-UnclassCore_1761_Zone A_Win WS,0902-399261,Guy Minkin.,,,Guy Minkin,10,"MS_Dot_Net_Framework,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_OneDrive,MS_Windows_10_STIG,Windows_PAW_STIG,HBSS_McAfee_Agent,HBSS_PolicyAuditor,McAfee_ENS_10-x_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,82%,0%,0,6,0
+NP_C10-UnclassCore_1761_Zone A_Win WS,0902-399262,Guy Minkin.,,,Guy Minkin,10,"MS_Dot_Net_Framework,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_OneDrive,MS_Windows_10_STIG,Windows_PAW_STIG,HBSS_McAfee_Agent,HBSS_PolicyAuditor,McAfee_ENS_10-x_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,82%,0%,0,7,0
+NP_C10-UnclassCore_1761_Zone A_Win WS,0902-399264,Guy Minkin.,,,Guy Minkin,10,"MS_Dot_Net_Framework,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_OneDrive,MS_Windows_10_STIG,Windows_PAW_STIG,HBSS_McAfee_Agent,HBSS_PolicyAuditor,McAfee_ENS_10-x_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,82%,0%,0,7,0
+NP_C10-UnclassCore_1761_Zone A_Win WS,DMZADCONSOLE1,Guy Minkin.,,,Guy Minkin,10,"MS_Dot_Net_Framework,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_OneDrive,MS_Windows_10_STIG,Windows_PAW_STIG,HBSS_McAfee_Agent,HBSS_PolicyAuditor,McAfee_ENS_10-x_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,82%,0%,0,4,0
+NP_C10-UnclassCore_1761_Zone A_Win WS,NP0163AWVDI01,Jon Helgesen,,Adrian C.,,24,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,JRE_8_and_Windows_STIG,Microsoft_Access_2013,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_InfoPath_2013,Microsoft_Lync_2013,Microsoft_Office_System_2013,Microsoft_OneNote_2013,Microsoft_Outlook_2013,Microsoft_PowerPoint_2013,Microsoft_Publisher_2013,Microsoft_Word_2013,MS_Windows_10_STIG,Windows_PAW_STIG,HBSS_McAfee_Agent,HBSS_PolicyAuditor,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,87%,0%,0,10,0
+NP_C10-UnclassCore_1761_Zone A_Win WS,NP0163AWVDI02,Jon Helgesen,,Philip Lenz,,24,"Adobe_Acrobat_Reader_DC_Continuous_Track_STIG,Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MOZ_Firefox_STIG,JRE_8_and_Windows_STIG,Microsoft_Access_2013,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2013,Microsoft_InfoPath_2013,Microsoft_Lync_2013,Microsoft_Office_System_2013,Microsoft_OneNote_2013,Microsoft_Outlook_2013,Microsoft_PowerPoint_2013,Microsoft_Publisher_2013,Microsoft_Word_2013,MS_Windows_10_STIG,Windows_PAW_STIG,HBSS_McAfee_Agent,HBSS_PolicyAuditor,McAfee_ENS_10-x_STIG,VMW_vSphere_7-0_Virtual_Machine_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,87%,0%,0,10,0
+NP_C10-UnclassCore_1761_Zone A_Win WS,NP0902NB402202,Madison Stanley,,,,14,"MS_Dot_Net_Framework,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2016,Microsoft_Office_System_2016,Microsoft_OneDrive,Microsoft_PowerPoint_2016,Microsoft_Word_2016,MS_Windows_10_STIG,Google_Chrome_Current_Windows,HBSS_McAfee_Agent,HBSS_PolicyAuditor,McAfee_ENS_10-x_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,86%,0%,0,1,0
+NP_C10-UnclassCore_1761_Zone A_Win WS,NPSCNessus01,Corey Long,,Corey Long.,,14,"Google_Chrome_Current_Windows,MS_Dot_Net_Framework,MS_Defender_Antivirus,MS_Edge_STIG,Microsoft_Excel_2016,Microsoft_Office_System_2016,Microsoft_OneDrive,Microsoft_PowerPoint_2016,Microsoft_Word_2016,MS_Windows_10_STIG,HBSS_McAfee_Agent,HBSS_PolicyAuditor,McAfee_ENS_10-x_STIG,Windows_Firewall_with_Advanced_Security",100%,100%,86%,0%,0,0,0
